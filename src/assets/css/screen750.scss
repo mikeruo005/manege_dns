@@ -1,0 +1,13 @@
+html{
+    font-size: 4.2666666667vw;  //32px-750
+    max-width: 750px;
+    margin: 0 auto;
+    @media screen and (min-width:750px) {
+        font-size: 32px;
+        body{
+            max-width: 375px;
+            margin: 0 auto;
+        }
+    }
+
+}
