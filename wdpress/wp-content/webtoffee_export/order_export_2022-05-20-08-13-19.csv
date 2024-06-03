@@ -1,0 +1,1 @@
+﻿ID,order_number,order_date,paid_date,shipping_total,order_total,order_currency,payment_method,payment_method_title,"Bank card number",customer_ip_address,customer_id,customer_user,customer_email,billing_first_name,billing_last_name,billing_company,billing_email,billing_phone,billing_address,billing_postcode,billing_country,customer_note,shipping_items,order_notes,line_item_1

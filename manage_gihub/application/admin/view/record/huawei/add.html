@@ -1,0 +1,61 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Zone_id')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-zone_id" data-rule="required" data-source="domains/index" class="form-control selectpage" data-field="DomainName" name="row[zone_id]" type="text" value="">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Domain')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-domain" data-rule="required" data-params='{"custom[cloud_type]":"huawei"}' data-source="domains/index?cloud_type=huawei" class="form-control selectpage" data-field="DomainName" name="row[id]" type="text" value="{$domain_id}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <select  id="c-type" class="form-control selectpicker" name="row[type]">
+                {foreach name="typeList" item="vo"}
+                <option value="{$key}" {in name="key" value="A"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Rr')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-rr" class="form-control" name="row[rr]" type="text">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Value')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-value" class="form-control" name="row[value]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('TTL')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ttl" class="form-control" name="row[ttl]" type="text" value="300">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Descript')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-descript" class="form-control" name="row[descript]" type="text">
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

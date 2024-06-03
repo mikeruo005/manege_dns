@@ -1,0 +1,30 @@
+FROM php:7.1.4-fpm-alpine
+
+MAINTAINER Mike1
+
+RUN apk update && apk add make zlib-dev gcc g++ nginx
+RUN apk add libpng-dev freetype-dev libjpeg-turbo-dev
+#composer安装
+# RUN set -x \
+#     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin \
+#     && mv /usr/local/bin/composer.phar /usr/local/bin/composer
+
+#RUN docker-php-ext-install gd && docker-php-ext-enable gd
+#RUN pecl install redis && docker-php-ext-enable redis
+#RUN docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+
+COPY ./ /app
+
+COPY ./docker/* /tmp/docker/
+
+COPY ./docker/client.conf /etc/nginx/nginx.conf
+
+RUN chmod -R 755 /tmp/docker/
+
+WORKDIR /app/
+
+# ENTRYPOINT ["/tmp/docker/entrypoint.sh"]
+
+#开放端口
+EXPOSE 80

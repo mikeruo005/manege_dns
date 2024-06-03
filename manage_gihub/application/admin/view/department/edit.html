@@ -1,0 +1,63 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Descript')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-descript" class="form-control " rows="5" name="row[descript]" cols="50">{$row.descript|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start_work_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_work_time" data-rule="required" class="form-control datetimepicker" data-date-format="HH:mm:ss" data-use-current="true" name="row[start_work_time]" type="text" value="{$row.start_work_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Off_work_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-off_work_time" data-rule="required" class="form-control datetimepicker" data-date-format="HH:mm:ss" data-use-current="true" name="row[off_work_time]" type="text" value="{$row.off_work_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_minutes')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_minutes" data-rule="required" class="form-control" name="row[add_minutes]" type="number" value="{$row.add_minutes|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Reset_day')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-reset_day" class="form-control selectpicker" name="row[reset_day]">
+                {foreach name="resetDayList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.reset_day"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="statusList" item="vo"}
+            <label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="$row.status"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

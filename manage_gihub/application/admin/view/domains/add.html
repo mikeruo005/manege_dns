@@ -1,0 +1,92 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Account_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+<!--            <input id="c-account_id" data-rule="required" data-source="account/users" class="form-control selectpage" name="row[account_id]" type="text" value="">-->
+            <select  id="c-cloud_type" class="form-control selectpicker" name="row[account_id]">
+                {foreach name="accountUserList" item="vo"}
+                <option value="{$key}" {in name="key" value=""}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Domainname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-DomainName" class="form-control" name="row[DomainName]" type="text">
+        </div>
+    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Domainid')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-DomainId" class="form-control" name="row[DomainId]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Createtime')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-CreateTime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[CreateTime]" type="text" value="{:date('Y-m-d H:i:s')}">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Punycode')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-Punycode" class="form-control" name="row[Punycode]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Dnsservers')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-DnsServers" class="form-control" name="row[DnsServers]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Domainloggingswitchstatus')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            -->
+<!--            <div class="radio">-->
+<!--            {foreach name="domainloggingswitchstatusList" item="vo"}-->
+<!--            <label for="row[DomainLoggingSwitchStatus]-{$key}"><input id="row[DomainLoggingSwitchStatus]-{$key}" name="row[DomainLoggingSwitchStatus]" type="radio" value="{$key}" {in name="key" value="CLOSE"}checked{/in} /> {$vo}</label> -->
+<!--            {/foreach}-->
+<!--            </div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Versioncode')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-VersionCode" class="form-control" name="row[VersionCode]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Versionname')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-VersionName" class="form-control" name="row[VersionName]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Recordcount')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-RecordCount" class="form-control" name="row[RecordCount]" type="number">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Tags')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-Tags" class="form-control" name="row[Tags]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Createtimestamp')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-CreateTimestamp" class="form-control" name="row[CreateTimestamp]" type="number">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

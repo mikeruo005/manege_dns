@@ -1,0 +1,3 @@
+ID,order_number,order_date,paid_date,shipping_total,order_total,order_currency,payment_method,payment_method_title,Bank card number,customer_ip_address,customer_id,customer_user,customer_email,billing_first_name,billing_last_name,billing_company,billing_email,billing_phone,billing_address,billing_postcode,billing_country,customer_note,shipping_items,order_notes,line_item_1
+810,810,2022/5/21 12:19,2022/5/21 04:22,20,209,CNY,bacs,direct bank transfer,UF_6800680555555,192.168.1.1,2,2,9999@hotmail.com,8.86929E+11,Nulla St.,96522,china,FUCK,,,,,,,
+811,811,2022/5/21 12:19,2022/5/21 04:22,50,2000,CNY,bacs,direct bank transfer,UF_6800680555555,192.168.1.1,1,1,9999@hotmail.com,0928878787,Nulla St.,965122,china,OHHHH,,,,,,,

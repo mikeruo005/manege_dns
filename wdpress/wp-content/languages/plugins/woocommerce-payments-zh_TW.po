@@ -1,0 +1,2403 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-25 20:05:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: WooCommerce - Extensions - WooCommerce Payments\n"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1088
+msgid "Currency From parameter is required"
+msgstr "必須提供貨幣來源參數"
+
+#. translators: 1) date in date_format or 'F j, Y'; 2) time in time_format or
+#. 'g:i a'
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:907
+msgid "The customer must authorize this payment via a notification sent to them by the bank which issued their card. The authorization must be completed before %1$s at %2$s, when the charge will be attempted."
+msgstr "客戶必須透過發卡銀行傳送給他們的通知來授權此付款。 授權必須在 %1$s%2$s 之前完成，屆時將嘗試扣款。"
+
+#. translators: %s Stripe error message.
+#: includes/class-wc-payments-webhook-processing-service.php:707
+msgid "With the following message: <code>%s</code>"
+msgstr "含以下訊息：<code>%s</code>"
+
+#: includes/class-wc-payments-webhook-processing-service.php:702
+msgid "For recurring payment greater than mandate amount or INR 15000, payment was not approved by the card holder."
+msgstr "持卡人未核准大於授權金額或 INR 15000 的定期付款。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:700
+msgid "The customer's bank could not send pre-debit notification for the payment."
+msgstr "客戶的銀行無法傳送該筆付款的預先扣除通知。"
+
+#: includes/subscriptions/templates/html-wcpay-deactivate-warning.php:48
+msgid "Yes, deactivate WooCommerce Payments"
+msgstr "是，停用 WooCommerce Payments"
+
+#: includes/subscriptions/templates/html-wcpay-deactivate-warning.php:43
+msgid "Are you sure you want to deactivate WooCommerce Payments?"
+msgstr "確定要停用 WooCommerce Payments 嗎？"
+
+#. translators: $1 $2 placeholders are opening and closing HTML link tags,
+#. linking to documentation.
+#: includes/subscriptions/templates/html-wcpay-deactivate-warning.php:37
+msgid "If you do not want these subscriptions to continue to be billed, you should %1$scancel all subscriptions%2$s prior to deactivating WooCommerce Payments. "
+msgstr "如果你不希望繼續支付這些訂購項目的費用，應先%1$s取消所有訂購項目%2$s再停用 WooCommerce Payments。 "
+
+#. translators: $1 $2 $3 placeholders are opening and closing HTML link tags,
+#. linking to documentation. $4 $5 placeholders are opening and closing strong
+#. HTML tags.
+#: includes/subscriptions/templates/html-wcpay-deactivate-warning.php:24
+msgid "Your store has active subscriptions using the built-in WooCommerce Payments functionality. Due to the %1$soff-site billing engine%3$s these subscriptions use, %4$sthey will continue to renew even after you deactivate WooCommerce Payments%5$s. %2$sLearn more%3$s."
+msgstr "你的商店有一些使用 WooCommerce Payments 內建功能的有效訂購項目。 由於這些訂購項目使用%1$s站外計費引擎%3$s，%4$s即使你停用 WooCommerce Payments，這些項目仍會續訂%5$s。 %2$s深入瞭解%3$s。"
+
+#. Translators: $1 and $2 placeholders are opening and closing strong HTML
+#. tags. $3 and $4 are opening and closing link HTML tags. $5 is an opening
+#. link HTML tag.
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:33
+msgid "Existing subscriptions will %1$s%3$srenew manually%4$s%2$s, meaning that subscribers will need to log in to pay for renewal. Access to the advanced features of the Subscriptions extension will be removed. %5$sLearn more.%4$s"
+msgstr ""
+
+#. Translators: placeholders are opening and closing strong HTML tags.
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:24
+msgid "By deactivating the %1$sWooCommerce Subscriptions%2$s plugin, your store will switch to using the subscriptions functionality %1$sbuilt into WooCommerce Payments%2$s."
+msgstr ""
+
+#: client/data/authorizations/resolvers.ts:137
+msgid "Error retrieving uncaptured transactions."
+msgstr "擷取未記錄的交易時發生錯誤。"
+
+#: client/data/authorizations/resolvers.ts:105
+msgid "Error retrieving authorization."
+msgstr "擷取授權時發生錯誤。"
+
+#: client/data/authorizations/actions.ts:113
+msgid "There has been an error capturing the payment for order #%s. Please try again later."
+msgstr "擷取訂單 #%s 的付款時發生錯誤。 請稍後再試一次。"
+
+#: client/data/authorizations/actions.ts:104
+msgid "Payment for order #%s captured successfully."
+msgstr "成功擷取訂單 #%s 的付款。"
+
+#: includes/notes/class-wc-payments-notes-set-up-stripelink.php:78
+msgid "Reduce cart abandonment and create a frictionless checkout experience with Link by Stripe. Link autofills your customer’s payment and shipping details, so they can check out in just six seconds with the Link optimized experience."
+msgstr "Link by Stripe 能夠減少購物車放棄率並創造流暢的結帳體驗。 Link 會自動填寫你客戶的付款和運送詳細資料，讓他們 6 秒內完成結帳，感受 Link 最佳化體驗。"
+
+#: client/components/file-upload/index.tsx:52
+msgid ": Evidence file was not uploaded"
+msgstr "：未上傳證據檔案"
+
+#: includes/notes/class-wc-payments-notes-set-up-stripelink.php:77
+msgid "Increase conversion at checkout"
+msgstr "提高結帳的轉換率"
+
+#. translators: customer email
+#: includes/class-wc-payment-token-wcpay-link.php:53
+msgid "Stripe Link email %s"
+msgstr "Stripe 連結電子郵件 %s"
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:52
+msgid "Enable HTTPS on your checkout pages to display all available payment methods and protect your customers data."
+msgstr "在結帳頁面上啟用 HTTPS，顯示所有可用的付款方式，同時保護客戶資料。"
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:51
+msgid "Enable secure checkout"
+msgstr "啟用安全結帳"
+
+#. Translators: %d is the numeric ID of the product without a price.
+#: includes/class-wc-payments-payment-request-button-handler.php:239
+msgid "Express checkout does not support products without prices! Please add a price to product #%d"
+msgstr "未貼價格標籤的商品，不得選擇快速結帳選項！ 請為你的商品 #%d 新增價格"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:172
+msgid "Monthly anchor for deposit scheduling when interval is set to monthly"
+msgstr "間隔設為每月時，用於進行存款時間安排的每月錨點"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:168
+msgid "Weekly anchor for deposit scheduling when interval is set to weekly"
+msgstr "間隔設為每週時，用於進行存款時間安排的每週錨點"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:164
+msgid "An interval for deposit scheduling."
+msgstr "存款時間安排的間隔。"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1207
+msgid "Unable to determine payment success."
+msgstr "無法判斷付款是否成功。"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1195
+msgid "This order does not require payment!"
+msgstr "此訂單不需要付款！"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1191
+msgid "Invalid order!"
+msgstr "無效的訂單！"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1175
+msgid "Invalid request"
+msgstr "無效的要求。"
+
+#. Translators: %s is the name of the shipping method.
+#: includes/class-wc-payments-payment-request-button-handler.php:368
+msgid "Shipping (%s)"
+msgstr "運送方式 (%s)"
+
+#: client/transactions/list/index.tsx:133
+msgid "Channel"
+msgstr "頻道"
+
+#: includes/admin/class-wc-rest-user-exists-controller.php:43
+msgid "Email address."
+msgstr "電子郵件"
+
+#: includes/class-wc-payments-order-service.php:373
+msgid "<strong>Fee details:</strong>"
+msgstr "<strong>費用詳細資訊：</strong>"
+
+#: client/transactions/filters/config.ts:131
+msgid "Select a customer currency"
+msgstr "選取客戶貨幣"
+
+#. Translators: The placeholder is the number of disputes.
+#: includes/admin/tasks/class-wc-payments-task-disputes.php:40
+msgid "%d disputed payment needs your response"
+msgid_plural "%d disputed payments need your response"
+msgstr[0] "有 %d 筆爭議付款需要回應"
+
+#: includes/platform-checkout/class-platform-checkout-order-status-sync.php:54
+msgid "WCPay platform checkout order status sync"
+msgstr "WCPay 平台結帳訂單狀態同步"
+
+#: includes/class-wc-payments-apple-pay-registration.php:407
+msgid "<a>Learn more</a>."
+msgstr "<a>深入瞭解</a>。"
+
+#. translators: a: Link to the logs page
+#: includes/class-wc-payments-apple-pay-registration.php:400
+msgid "Please check the <a>logs</a> for more details on this issue. Debug log must be enabled under <strong>Advanced settings</strong> to see recorded logs."
+msgstr "請查看<a>記錄檔</a>，深入瞭解此問題。 必須在<strong>進階設定</strong>下啟用偵錯記錄檔才能查看記錄檔。"
+
+#: includes/class-wc-payments-apple-pay-registration.php:395
+msgid "Express checkouts:"
+msgstr "快速結帳："
+
+#: client/settings/express-checkout-settings/file-upload.tsx:146
+msgid "Use a custom logo to WooPay if the one taken from your store doesn’t look right. For best results, upload a high-resolution horizontal image with white or transparent background."
+msgstr "如果你商店提供的標誌不適合，請使用 WooPay  的自訂標誌。 為獲得最佳結果，請上傳高解析度的水平圖片，背景為白色或透明。"
+
+#: client/settings/express-checkout-settings/file-upload.tsx:144
+msgid "Replace"
+msgstr "取代"
+
+#: client/settings/express-checkout-settings/file-upload.tsx:139
+msgid "Upload custom logo"
+msgstr "上傳自訂標誌"
+
+#. translators: %1$s: <h3> tag, %2$s: </h3> tag, %3$s: <p> tag, %4$s: <em> tag,
+#. %5$s: </em> tag, %6$s: <em> tag, %7$s: </em> tag, %8$s: </p> tag.
+#: includes/subscriptions/class-wc-payments-subscriptions-onboarding-handler.php:277
+msgctxt "used in admin pointer script params in javascript as type pointer content"
+msgid "%1$sChoose Subscription%2$s%3$sWooCommerce Payments adds two new subscription product types - %4$sSimple subscription%5$s and %6$sVariable subscription%7$s.%8$s"
+msgstr "%1$s選擇訂閱%2$s%3$sWooCommerce Payments 新增了兩種訂閱產品類型 - %4$s簡易訂閱%5$s和%6$s可變訂閱%7$s。%8$s"
+
+#. translators: tosLink: Link to terms of service page, privacyLink: Link to
+#. privacy policy page
+#: includes/class-wc-payment-gateway-wcpay.php:175
+msgid ""
+"Payments made simple, with no monthly fees – designed exclusively for WooCommerce stores. Accept credit cards, debit cards, and other popular payment methods.<br/><br/>\n"
+"\t\t\tBy using WooCommerce Payments you agree to be bound by our <tosLink>Terms of Service</tosLink>  and acknowledge that you have read our <privacyLink>Privacy Policy</privacyLink>"
+msgstr ""
+"付款變得簡單，不需支付月費：專為 WooCommerce 商店獨家提供。 接受信用卡、簽帳金融卡和其他熱門付款方式。<br/><br/>\n"
+"\t\t\t使用 WooCommerce Payments，即表示你同意遵守我們的<tosLink>服務條款</tosLink>  ，並確認已詳閱我們的<privacyLink>隱私權政策</privacyLink>"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:228
+msgid "Store logo to display to WooPay customers."
+msgstr "向 WooPay 顧客顯示的商店標誌。"
+
+#: includes/class-wc-payments-order-success-page.php:53
+msgid "Payment method:"
+msgstr "付款方式:"
+
+#: includes/class-wc-payments-order-success-page.php:36
+msgid "Thank you! We’ve received your order."
+msgstr "感謝你！ 我們已收到你的訂單。"
+
+#: includes/admin/class-wc-payments-admin.php:930
+#: includes/class-wc-payments-order-success-page.php:59
+msgid "Card ending in"
+msgstr "卡片末碼為"
+
+#: includes/admin/class-wc-payments-admin.php:926
+msgid "Paid with"
+msgstr "支付方法："
+
+#: includes/payment-methods/class-link-payment-method.php:27
+msgid "Link"
+msgstr "鏈結"
+
+#: includes/class-wc-payments-account.php:1222
+msgid "Failed to update Account locale. "
+msgstr "更新帳號地區失敗。 "
+
+#: includes/class-wc-payment-gateway-wcpay.php:1453
+msgid "You shall refund this payment in the same application where the payment was made."
+msgstr "你必須使用與付款時相同的應用程式來退還這筆款項。"
+
+#: client/onboarding/translations/structures.tsx:38
+#: client/onboarding/translations/types.tsx:9
+msgid "Company"
+msgstr "公司"
+
+#: woocommerce-payments.php:279
+msgid "<strong>Notice:</strong> It appears that your 'wp-config.php' file might be using dynamic site URL values. Dynamic site URLs could cause WooCommerce Payments to enter Safe Mode. <dynamicSiteUrlSupportLink>Learn how to set a static site URL.</dynamicSiteUrlSupportLink>"
+msgstr "<strong>注意：</strong>你的「wp-config.php」檔案似乎正在使用動態網站 URL 值。 動態網站 URL 可能會導致 WooCommerce Payments 進入安全模式。 <dynamicSiteUrlSupportLink>瞭解如何設定靜態網站 URL。</dynamicSiteUrlSupportLink>"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:223
+msgid "Custom message to display to WooPay customers."
+msgstr "向 WooPay 顧客顯示的自訂訊息。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:218
+msgid "If WooPay should be enabled."
+msgstr "是否應啟用 WooPay。"
+
+#: includes/admin/class-wc-rest-payments-onboarding-controller.php:100
+msgid "Country or type parameter was missing"
+msgstr "遺漏國家/地區或類型參數"
+
+#: client/data/payment-intents/resolvers.ts:56
+msgid "Error retrieving transaction."
+msgstr "擷取交易時發生錯誤。"
+
+#: templates/emails/email-ipp-receipt-compliance-details.php:33
+#: templates/emails/plain/email-ipp-receipt-compliance-details.php:21
+msgid "Application Name"
+msgstr "應用程式名稱"
+
+#: templates/emails/email-ipp-receipt-compliance-details.php:25
+#: templates/emails/plain/email-ipp-receipt-compliance-details.php:19
+msgid "Payment Method"
+msgstr "付款方式"
+
+#. translators: %s: Order number
+#: templates/emails/customer-ipp-receipt.php:26
+#: templates/emails/plain/customer-ipp-receipt.php:26
+msgid "This is the receipt for your order #%s:"
+msgstr "這是你的訂單 #%s 的收據："
+
+#. translators: %s: Customer first name
+#: templates/emails/customer-ipp-receipt.php:24
+#: templates/emails/plain/customer-ipp-receipt.php:24
+msgid "Hi %s,"
+msgstr "%s，你好"
+
+#: includes/emails/class-wc-payments-email-ipp-receipt.php:247
+msgid "Thanks for using {site_url}!"
+msgstr "感謝你使用 {site_url}！"
+
+#: includes/emails/class-wc-payments-email-ipp-receipt.php:92
+msgid "Your receipt for order: #{order_number}"
+msgstr "你在以下訂單的收據：#{order_number} "
+
+#: includes/emails/class-wc-payments-email-ipp-receipt.php:82
+msgid "Your {site_title} Receipt"
+msgstr "你的 {site_title} 收據"
+
+#: includes/emails/class-wc-payments-email-ipp-receipt.php:47
+msgid "New receipt emails are sent to customers when a new order is paid for with a card reader."
+msgstr "使用讀卡機支付新訂單費用時，系統會傳送新的收據電子郵件給顧客。"
+
+#: includes/emails/class-wc-payments-email-ipp-receipt.php:46
+msgid "New receipt"
+msgstr "新的收據"
+
+#. translators: %1: the successfully charged amount, %2: refund id, %3: reason
+#: includes/class-wc-payment-gateway-wcpay.php:1502
+msgid "A refund of %1$s was successfully processed using WooCommerce Payments. Reason: %2$s. (<code>%3$s</code>)"
+msgstr "使用 WooCommerce Payments 成功處理了一筆 %1$s 退款。 原因：%2$s。(<code>%3$s</code>)"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:176
+msgid "Shipping:"
+msgstr "運送方式："
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:168
+msgid "Fees:"
+msgstr "費用："
+
+#. translators: %1: The document ID. %2: The error message.
+#: includes/admin/class-wc-rest-payments-documents-controller.php:96
+msgid "There was an error accessing document %1$s. %2$s"
+msgstr "存取文件 %1$s 時發生錯誤。 %2$s"
+
+#: includes/class-wc-payments-order-service.php:806
+msgid "Intent id was not included for payment complete status change."
+msgstr "付款完成狀態變更未包含用途 ID。"
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payments-order-service.php:540
+msgid "A capture of %1$s <strong>failed</strong> to complete using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "使用 WooCommerce Payments 請款 %1$s <strong> 失敗</strong> (<a>%2$s</a>)。"
+
+#: includes/class-platform-checkout-tracker.php:74
+msgid "No valid event name or type."
+msgstr "無有效的事件名稱或類型。"
+
+#: includes/class-platform-checkout-tracker.php:67
+#: includes/class-wc-payments.php:1084 includes/class-wc-payments.php:1181
+msgid "You aren’t authorized to do that."
+msgstr "您未獲授權進行此操作。"
+
+#: includes/notes/class-wc-payments-notes-loan-approved.php:76
+msgid "View loan details"
+msgstr "查看貸款詳細資訊"
+
+#. Translators: %1: total amount lent to the merchant formatted in the account
+#. currency.
+#: includes/notes/class-wc-payments-notes-loan-approved.php:51
+msgid "Congratulations! Your capital loan has been approved and %1$s was deposited in to the bank account linked to WooCommerce Payments. You'll automatically repay the loan, plus a flat fee, through a fixed percentage of each WooCommerce Payments transaction."
+msgstr "恭喜！ 你的資本貸款申請已獲准，我們已將 %1$s 存入與 WooCommerce Payments 連結的銀行帳戶。 還款將依固定百分比從每筆 WooCommerce Payments 交易額自動扣除，並收取固定金額的手續費。"
+
+#: includes/notes/class-wc-payments-notes-loan-approved.php:47
+msgid "Your capital loan has been approved!"
+msgstr "你的資本貸款申請已獲准！"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:217
+msgid "Powered by WooCommerce"
+msgstr "WooCommerce 技術支援"
+
+#: includes/admin/class-wc-rest-payments-files-controller.php:83
+msgid "Sorry, you are not allowed to do that."
+msgstr "抱歉，你不允許這樣做。"
+
+#: client/transactions/strings.ts:18
+msgid "Loan repayment"
+msgstr "貸款償還"
+
+#: client/data/capital/resolvers.ts:92
+msgid "Error retrieving the active loan summary."
+msgstr "擷取啟用中的貸款摘要時發生錯誤。"
+
+#: client/components/active-loan-summary/index.tsx:90
+msgid "First paydown"
+msgstr "首次還款"
+
+#: client/components/active-loan-summary/index.tsx:87
+msgid "Withhold rate"
+msgstr "扣繳率"
+
+#: client/components/active-loan-summary/index.tsx:86
+msgid "Fixed fee"
+msgstr "固定費用"
+
+#: client/settings/phone-input/index.tsx:88
+msgid "Mobile phone number"
+msgstr "行動電話號碼"
+
+#: includes/class-wc-payments.php:1224
+msgid "Contact information"
+msgstr "聯絡資訊"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:372
+msgid "Error: Invalid address format!"
+msgstr "錯誤：無效的地址格式！"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:346
+msgid "Error: Invalid phone number: "
+msgstr "錯誤：無效的電話號碼： "
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:322
+msgid "Error: Invalid email address: "
+msgstr "錯誤：無效的電子郵件地址： "
+
+#. translators: %1$s: The current site domain name. %2$s: The original site
+#. domain name. Please keep hostname tags in your translation so that they can
+#. be formatted properly.
+#: woocommerce-payments.php:300
+msgid "Create a new connection to WooCommerce Payments for <hostname>%1$s</hostname>. You’ll have to re-verify your business details to begin accepting payments. Your <hostname>%2$s</hostname> connection will remain as is."
+msgstr "請為 <hostname>%1$s</hostname> 建立新的 WooCommerce Payments 連結。 你將需要重新驗證企業詳細資訊，才能開始接受付款。 你的 <hostname>%2$s</hostname> 連結會保持原狀。"
+
+#. translators: %1$s: The current site domain name. %2$s: The original site
+#. domain name. Please keep hostname tags in your translation so that they can
+#. be formatted properly.
+#: woocommerce-payments.php:290
+msgid "Transfer your WooCommerce Payments connection from <hostname>%2$s</hostname> to this site <hostname>%1$s</hostname>. <hostname>%2$s</hostname> will be disconnected from WooCommerce Payments."
+msgstr "請將你的 WooCommerce Payments 連結從 <hostname>%2$s</hostname> 轉移至此網站 (<hostname>%1$s</hostname>)。<hostname>%2$s</hostname> 會與 WooCommerce Payments 中斷連結。"
+
+#: woocommerce-payments.php:278
+msgid "WooCommerce Payments Safe Mode"
+msgstr "WooCommerce Payments 安全模式"
+
+#: woocommerce-payments.php:276
+msgid "We’ve detected that you have duplicate sites connected to WooCommerce Payments. When Safe Mode is active, payments will not be interrupted. However, some features may not be available until you’ve resolved this issue below. Safe Mode is most frequently activated when you’re transferring your site from one domain to another, or creating a staging site for testing. A site adminstrator can resolve this issue. <safeModeLink>Learn more</safeModeLink>"
+msgstr "我們偵測到你有重複的網站連結至 WooCommerce Payments。 啟用安全模式時，付款程序不會中斷。 但在你解決下列問題前，部分功能可能會無法使用。 安全模式通常會在你轉移網站至其他網域，或是建立暫存網站進行測試時啟用。 網站管理員可以解決此問題。<safeModeLink>瞭解詳情</safeModeLink>"
+
+#: woocommerce-payments.php:273 woocommerce-payments.php:274
+msgid "Create a new connection"
+msgstr "建立新連結"
+
+#: woocommerce-payments.php:272
+msgid "Transfer your connection"
+msgstr "轉移你的連結"
+
+#: woocommerce-payments.php:271
+msgid "Transfer connection"
+msgstr "轉移連結"
+
+#: woocommerce-payments.php:270
+msgid "Safe Mode has been deactivated and WooCommerce Payments is fully functional."
+msgstr "安全模式已停用，WooCommerce Payments 可完整發揮功能。"
+
+#: woocommerce-payments.php:269
+msgid "WooCommerce Payments connection successfully transferred"
+msgstr "已成功轉移 WooCommerce Payments 連結"
+
+#: woocommerce-payments.php:268
+msgid "We’ve detected that you have duplicate sites connected to WooCommerce Payments. When Safe Mode is active, payments will not be interrupted. However, some features may not be available until you’ve resolved this issue below. Safe Mode is most frequently activated when you’re transferring your site from one domain to another, or creating a staging site for testing. <safeModeLink>Learn more</safeModeLink>"
+msgstr "我們偵測到你有重複的網站連結至 WooCommerce Payments。 啟用安全模式時，付款程序不會中斷。 但在你解決下列問題前，部分功能可能會無法使用。 安全模式通常會在你轉移網站至其他網域，或是建立暫存網站進行測試時啟用。<safeModeLink>瞭解詳情</safeModeLink>"
+
+#: woocommerce-payments.php:267 woocommerce-payments.php:275
+msgid "Safe Mode activated"
+msgstr "安全模式已啟用"
+
+#: woocommerce-payments.php:266
+msgid "Safe Mode"
+msgstr "安全模式"
+
+#: client/disputes/filters/config.ts:88
+msgid "Select a dispute date"
+msgstr "選擇爭議發生日期"
+
+#: client/disputes/filters/config.ts:85
+msgid "Select a dispute date filter match"
+msgstr "選擇爭議發生日期篩選條件比對"
+
+#: client/disputes/filters/config.ts:84
+msgid "Remove dispute date filter"
+msgstr "移除爭議發生日期篩選條件"
+
+#: client/disputes/filters/config.ts:83
+msgid "Disputed on date"
+msgstr "爭議發生日期："
+
+#: client/disputes/filters/config.ts:79
+msgid "Disputes match {{select /}} filters"
+msgstr "爭議符合 {{select /}} 個篩選條件"
+
+#: client/disputes/filters/config.ts:66
+msgid "All disputes"
+msgstr "所有爭議"
+
+#: client/disputes/filters/config.ts:23
+msgid "Dispute currency"
+msgstr "提出貨幣爭議"
+
+#: client/disputes/filters/config.ts:115
+msgid "Select a dispute status"
+msgstr "選擇爭議狀態"
+
+#: client/disputes/filters/config.ts:112
+msgid "Select a dispute status filter match"
+msgstr "選擇爭議狀態篩選條件比對"
+
+#: client/disputes/filters/config.ts:111
+msgid "Remove dispute status filter"
+msgstr "移除爭議狀態篩選條件"
+
+#. Translators: The %1 placeholder is a currency formatted price string
+#. ($0.50). The %2 and %3 placeholders are opening and closing strong HTML
+#. tags.
+#: includes/subscriptions/class-wc-payments-subscription-service.php:394
+msgid "There was a problem creating your subscription. %1$s doesn't meet the %2$sminimum recurring amount%3$s this payment method can process."
+msgstr "建立你的訂購時發生問題。%1$s 不符合此付款方式可處理的%2$s最低定期金額%3$s。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:696
+msgid "You have exceeded the number of allowed verification attempts."
+msgstr "你已超過驗證嘗試次數上限。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:694
+msgid "Microdeposit transfers failed. Please check the account, institution and transit numbers."
+msgstr "小額轉帳驗證失敗。 請檢查帳號、機構和交易編號。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:692
+msgid "The customer's bank account could not be located."
+msgstr "找不到顧客的銀行帳號。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:690
+msgid "The customer's account has insufficient funds to cover this payment."
+msgstr "顧客的帳號餘額不足以支付這筆款項。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:688
+msgid "The customer has notified their bank that this payment was unauthorized."
+msgstr "顧客已通知銀行這筆付款未經授權。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:686
+msgid "The customer's bank account has been closed."
+msgstr "顧客的銀行帳號已註銷。"
+
+#: client/disputes/index.tsx:293 client/transactions/list/index.tsx:424
+msgid "There was a problem generating your export."
+msgstr "產生匯出時發生問題。"
+
+#: client/disputes/index.tsx:284 client/transactions/list/index.tsx:415
+msgid "Your export will be emailed to %s"
+msgstr "匯出內容會透過電子郵件傳送到 %s"
+
+#. translators: %s: the error message.
+#: includes/class-wc-payment-gateway-wcpay.php:2639
+msgid "Intent creation failed with the following message: %s"
+msgstr "建立意圖失敗，錯誤訊息：%s"
+
+#: client/vat/form/tasks/company-data-task.tsx:97
+msgid "Business name"
+msgstr "企業名稱"
+
+#: client/card-readers/settings/file-upload.tsx:59
+#: client/settings/express-checkout-settings/file-upload.tsx:62
+msgid "The file you have attached is exceeding the maximum limit."
+msgstr "你附加的檔案大小超過上限。"
+
+#: client/card-readers/list/list-item.tsx:13
+msgid "Active"
+msgstr "已啟用"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:216
+#: templates/emails/email-ipp-receipt-compliance-details.php:49
+#: templates/emails/plain/email-ipp-receipt-compliance-details.php:25
+msgid "Account Type"
+msgstr "帳戶類型"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:215
+#: templates/emails/email-ipp-receipt-compliance-details.php:41
+#: templates/emails/plain/email-ipp-receipt-compliance-details.php:23
+msgid "AID"
+msgstr "輔助"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:214
+msgid "Application name"
+msgstr "應用程式名稱"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:204
+msgid "AMOUNT PAID"
+msgstr "付款金額"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:195
+msgid "TOTAL"
+msgstr "總計"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:154
+msgid "SUBTOTAL"
+msgstr "小計"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:143
+msgid "SKU"
+msgstr "貨號"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2878
+msgid "Next we’ll ask you to share a few details about your business to create your account."
+msgstr "接下來我們會請你分享一些有關貴公司的詳細資訊，以便建立你的帳號。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2046
+msgid "Failed to update Stripe account. "
+msgstr "更新 Stripe 帳號失敗。 "
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:160
+msgid "A CSS hex color value representing the secondary branding color for this account."
+msgstr "代表此帳號次要品牌顏色的 CSS hex 色彩值。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:156
+msgid "A CSS hex color value representing the primary branding color for this account."
+msgstr "代表此帳號主要品牌顏色的 CSS hex 色彩值。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:152
+msgid "An icon for the account."
+msgstr "帳號的圖示。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:148
+msgid "A logo id for the account that will be used in Checkout"
+msgstr "用於結帳的帳號標誌 ID"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:143
+msgid "A publicly available phone number to call with support issues."
+msgstr "針對支援問題可撥打的公開電話號碼。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:138
+msgid "A publicly available email address for sending support issues to."
+msgstr "傳送支援問題的公開電子郵件地址。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:133
+msgid "A publicly available mailing address for sending support issues to."
+msgstr "傳送支援問題的公開郵寄地址。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:129
+msgid "The business’s publicly available website."
+msgstr "企業的公開網站。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:125
+msgid "The customer-facing business name."
+msgstr "對客戶顯示的企業名稱。"
+
+#: includes/admin/class-wc-rest-payments-reader-controller.php:274
+msgid "Invalid payment intent"
+msgstr "付款意圖無效"
+
+#: includes/admin/class-wc-payments-admin.php:282
+msgid "Card Readers"
+msgstr "讀卡機"
+
+#: includes/admin/class-wc-payments-admin.php:389
+msgid "Add new payment methods"
+msgstr "加入新的付款方式"
+
+#: includes/class-wc-payments-utils.php:534
+msgid "We couldn’t verify the postal code in your billing address. Make sure the information is current with your card issuing bank and try again."
+msgstr "我們無法驗證帳單郵寄地址的郵遞區號。 請確認發卡銀行提供的資訊是最新資訊，然後再試一次。"
+
+#. translators: %s a formatted price.
+#: includes/class-wc-payments-utils.php:523
+msgid "The selected payment method requires a total amount of at least %s."
+msgstr "總金額至少需要 %s 才能使用選取的付款方式。"
+
+#: includes/class-wc-payments-dependency-service.php:292
+msgid "You have installed a development version of WooCommerce Payments which requires files to be built. From the plugin directory, run <code>npm run build:client</code> to build and minify assets. Alternatively, you can download a pre-built version of the plugin from the <a1>WordPress.org repository</a1> or by visiting the <a2>releases page in the GitHub repository</a2>."
+msgstr "你安裝了 WooCommerce Payments 的開發版本，該版本需要檔案才能建置。 在外掛程式目錄中，執行 <code>npm run build:client</code> 來建置和縮小資產。 或者你可以前往 <a1>WordPress.org 目錄</a1>，或是造訪 <a2>GitHub 目錄的發布頁面</a2>，下載外掛程式的預先建置版本。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:706
+msgid "We couldn’t verify the postal code in the billing address. If the issue persists, suggest the customer to reach out to the card issuing bank."
+msgstr "我們無法驗證帳單郵寄地址的郵遞區號。 如果問題仍然存在，建議客戶聯絡發卡銀行。"
+
+#. translators: %1: the failed payment amount, %2: error message
+#: includes/class-wc-payment-gateway-wcpay.php:701
+msgid "A payment of %1$s <strong>failed</strong>. %2$s"
+msgstr "%1$s 付款<strong>失敗</strong>。 %2$s"
+
+#. translators: %1: the dispute message, %2: the dispute details URL
+#: includes/class-wc-payments-webhook-processing-service.php:564
+msgid "%1$s. See <a href=\"%2$s\">dispute overview</a> for more details."
+msgstr "%1$s。 詳情請見<a href=\"%2$s\">爭議概覽</a>。"
+
+#: includes/class-wc-payments-webhook-processing-service.php:559
+msgid "Payment dispute has been updated"
+msgstr "付款爭議已更新"
+
+#: includes/class-wc-payments-webhook-processing-service.php:556
+msgid "Payment dispute funds have been reinstated"
+msgstr "有爭議的付款資金已補回"
+
+#: includes/class-wc-payments-webhook-processing-service.php:553
+msgid "Payment dispute funds have been withdrawn"
+msgstr "有爭議的付款資金已提取"
+
+#: includes/class-wc-payments-order-service.php:288
+msgid "Dispute lost."
+msgstr "爭議敗訴。"
+
+#. translators: %1: the dispute status
+#: includes/class-wc-payments-order-service.php:634
+msgid "Payment dispute has been closed with status %1$s. See <a>dispute overview</a> for more details."
+msgstr "有爭議的付款已關閉，狀態為 %1$s。 詳情請見<a>爭議概覽</a>。"
+
+#. translators: %1: the dispute reason
+#: includes/class-wc-payments-order-service.php:612
+msgid "Payment has been disputed as %1$s. See <a>dispute overview</a> for more details."
+msgstr "付款因 %1$s 而有爭議。 詳情請見<a>爭議概覽</a>。"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:155
+msgid "WooCommerce In-Person Payments"
+msgstr "WooCommerce In-Person Payments"
+
+#: includes/class-wc-payments-status.php:91
+msgid "Account ID"
+msgstr "帳號 ID"
+
+#: includes/class-wc-payments-status.php:86
+msgid "Blog ID"
+msgstr "Blog ID"
+
+#: includes/class-wc-payments-status.php:83
+msgid "No"
+msgstr "不"
+
+#: includes/class-wc-payments-status.php:83
+msgid "Yes"
+msgstr "是"
+
+#: includes/class-wc-payments-status.php:81
+msgid "Connected to WPCOM"
+msgstr "已連結 WPCOM"
+
+#: includes/class-wc-payments-status.php:76
+msgid "Version"
+msgstr "版本"
+
+#: client/transactions/list/index.tsx:324
+msgid "N/A"
+msgstr "無"
+
+#. translators: %1$s Opening strong tag, %2$s Closing strong tag
+#: includes/subscriptions/class-wc-payments-product-service.php:511
+msgid "%1$sThere was an issue saving your variations!%2$s A subscription product's billing period cannot be longer than one year. We have updated one or more of this product's variations to renew every %3$s."
+msgstr "%1$s儲存款式時發生問題！%2$s訂購產品的帳單週期不能超過一年。 我們已將此產品一或多個款式更新為每%3$s續訂。"
+
+#. translators: %1$s Opening strong tag, %2$s Closing strong tag, %3$s The
+#. subscription renewal interval (every x time)
+#: includes/subscriptions/class-wc-payments-product-service.php:466
+msgid "%1$sThere was an issue saving your product!%2$s A subscription product's billing period cannot be longer than one year. We have updated this product to renew every %3$s."
+msgstr "%1$s儲存產品時發生問題！%2$s訂購產品的帳單週期不能超過一年。 我們已將此產品更新為每%3$s續訂。"
+
+#: includes/subscriptions/class-wc-payments-subscription-service.php:652
+msgid "WooCommerce Payments Subscription ID"
+msgstr "WooCommerce Payments 訂購 ID"
+
+#: client/payment-methods/activation-modal.tsx:36
+msgid "You need to provide more information to enable %s on your checkout."
+msgstr "你需要提供更多資訊，才能在結帳時啟用 %s。"
+
+#: client/payment-methods/activation-modal.tsx:32
+msgid "You need to provide more information to enable %s on your checkout:"
+msgstr "你需要提供更多資訊，才能在結帳時啟用 %s："
+
+#: client/payment-methods/activation-modal.tsx:27
+msgid "One more step to enable %s"
+msgstr "再完成一個步驟即可啟用 %s"
+
+#: client/payment-methods/activation-modal.tsx:38
+msgid "If you choose to continue, our payment partner Stripe will send an e-mail to {{merchantEmail /}} to collect the required information"
+msgstr "若選擇繼續，我們的付款合作夥伴 Stripe 會傳送電子郵件至 {{merchantEmail /}} 以收集必要資訊"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:110
+msgid "WooCommerce Payments Multi-Currency feature flag setting."
+msgstr "WooCommerce Payments 多幣別功能旗標設定。"
+
+#: includes/subscriptions/class-wc-payments-invoice-service.php:268
+msgid "The payment info couldn't be added to the order."
+msgstr "卡片資訊無法新增至這筆訂單。"
+
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:47
+msgid "Yes, deactivate WooCommerce Subscriptions"
+msgstr "是，停用 WooCommerce Subscriptions"
+
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:42
+msgid "Are you sure you want to deactivate WooCommerce Subscriptions?"
+msgstr "確定要停用 WooCommerce Subscriptions 嗎？"
+
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:14
+#: includes/subscriptions/templates/html-wcpay-deactivate-warning.php:14
+msgid "Are you sure?"
+msgstr "你確定嗎？"
+
+#: includes/class-wc-payment-gateway-wcpay.php:955
+msgid "Credit / Debit Card"
+msgstr "信用卡/簽帳金融卡"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:135
+#: includes/admin/class-wc-rest-payments-orders-controller.php:238
+msgid "Payment cannot be captured for partially or fully refunded orders."
+msgstr "無法為部分或全額退款的訂單請款。"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1434
+msgid "Price ID is required"
+msgstr "價格 ID 為必填欄位"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1410
+msgid "Product ID is required"
+msgstr "產品 ID 為必填欄位"
+
+#. Translators: %s Property name not found in event data array.
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:213
+msgid "%s not found in array"
+msgstr "在陣列中找不到 %s"
+
+#. Translators: %d Number of failed renewal attempts.
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:182
+msgid "WCPay subscription renewal attempt %d failed."
+msgid_plural "WCPay subscription renewal attempt %d failed."
+msgstr[0] "WCPay 續訂嘗試 %d 次都失敗。"
+
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:174
+msgid "Unable to generate renewal order for subscription to record the incoming \"invoice.payment_failed\" event."
+msgstr "無法為記錄傳入事件「invoice.payment_failed」的訂閱產生續訂訂單。"
+
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:165
+msgid "Cannot find subscription for the incoming \"invoice.upcoming\" event."
+msgstr "找不到傳入事件「invoice.upcoming」的訂閱。"
+
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:114
+msgid "Unable to generate renewal order for subscription on the \"invoice.paid\" event."
+msgstr "無法為「invoice.paid」事件的訂閱產生續訂訂單。"
+
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:100
+msgid "Cannot find subscription for the incoming \"invoice.paid\" event."
+msgstr "找不到傳入事件「invoice.paid」的訂閱。"
+
+#. Translators: %s Scheduled/upcoming payment date in Y-m-d H:i:s format.
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:78
+msgid "Next automatic payment scheduled for %s."
+msgstr "下次自動付款排定在 %s。"
+
+#: includes/subscriptions/class-wc-payments-subscriptions-event-handler.php:63
+msgid "Cannot find subscription to handle the \"invoice.upcoming\" event."
+msgstr "找不到處理「invoice.upcoming」事件的訂閱。"
+
+#. Translators: %s Stripe subscription item ID.
+#: includes/subscriptions/class-wc-payments-subscription-service.php:897
+msgid "Unable to set subscription item ID meta for WCPay subscription item %s."
+msgstr "無法為 WCPay 訂閱項目 %s 設定訂閱項目 ID meta。 "
+
+#: includes/subscriptions/class-wc-payments-subscription-service.php:673
+msgid "The subscription's next payment date has been updated to match WCPay server."
+msgstr "已更新訂閱的下個付款日期，使其與 WCPay 伺服器相符。"
+
+#: includes/subscriptions/class-wc-payments-subscription-service.php:595
+msgid "We've successfully collected payment for your subscription using your new payment method."
+msgstr "我們已成功使用新付款方式收取你的訂閱費用。"
+
+#: includes/subscriptions/class-wc-payments-subscription-service.php:363
+msgid "There was a problem creating your subscription. Please try again or contact us for assistance."
+msgstr "建立訂閱時發生問題。 請重試或向我們尋求協助。"
+
+#. Translators: %s Coupon code.
+#: includes/subscriptions/class-wc-payments-subscription-service.php:313
+msgid "Coupon - %s"
+msgstr "優惠券 - %s"
+
+#: includes/subscriptions/class-wc-payments-subscription-change-payment-method-handler.php:213
+msgid "Update and retry payment"
+msgstr "請更新並重試付款"
+
+#: includes/subscriptions/class-wc-payments-subscription-change-payment-method-handler.php:162
+msgid "Your subscription's last renewal failed payment. Please update your payment details so we can reattempt payment."
+msgstr "你的訂閱在上次續訂時付款失敗。 請更新你的付款詳細資料，好讓我們重新嘗試扣款。"
+
+#: includes/subscriptions/class-wc-payments-subscription-change-payment-method-handler.php:146
+msgid "Update payment details"
+msgstr "請更新付款詳細資料"
+
+#: includes/subscriptions/class-wc-payments-subscription-change-payment-method-handler.php:49
+msgid "Update payment method"
+msgstr "更新付款方式"
+
+#: includes/subscriptions/class-wc-payments-invoice-service.php:330
+msgid "The WCPay invoice items do not match WC subscription items."
+msgstr "WCPay 發票項目與 WC 訂閱項目不符"
+
+#. translators: a1: link to the Plugins page, a2: link to the page having all
+#. previous versions
+#: includes/class-wc-payments-dependency-service.php:238
+msgid "<a1>Update WooCommerce</a1> <strong>(recommended)</strong> or manually re-install <a2>a previous version</a2> of WooCommerce Payments."
+msgstr "<a1>請更新 WooCommerce </a1> <strong>(建議)</strong> 或手動重新安裝<a2>舊版</a2> WooCommerce Payments。"
+
+#: includes/multi-currency/CurrencySwitcherWidget.php:50
+msgid "Currency Switcher Widget"
+msgstr "幣別轉換器小工具"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:115
+msgid "WooCommerce Payments Subscriptions feature flag setting."
+msgstr "WooCommerce Payments 訂閱功能旗標設定。"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1809
+msgid "Address country and line 1 are required."
+msgstr "地址國家/地區和第 1 行為必填。"
+
+#: includes/class-wc-payments-utils.php:530
+#: includes/class-wc-payments-utils.php:532
+msgid "We're not able to process this request. Please refresh the page and try again."
+msgstr "我們無法處理此要求。 請重新整理頁面，然後再試一次。"
+
+#: includes/class-wc-payments-account.php:952
+msgid "There was a duplicate attempt to initiate account setup. Please wait a few seconds and try again."
+msgstr "重複嘗試啟動帳號設定。 請稍待一會再試。"
+
+#. translators: %1: the failed payment amount
+#: includes/class-wc-payment-gateway-wcpay.php:731
+msgid "A payment of %1$s <strong>failed</strong> to complete because of too many failed transactions. A rate limiter was enabled for the user to prevent more attempts temporarily."
+msgstr "由於交易失敗次數過多，%1$s <strong>的付款無法完成</strong>。 系統已對該使用者暫時啟用網路限制，以防止更多嘗試。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:667
+#: includes/payment-methods/class-upe-payment-gateway.php:464
+msgid "Your payment was not processed."
+msgstr "並未處理你的付款。"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:308
+msgid "Invalid order status"
+msgstr "無效的訂單狀態"
+
+#: includes/notes/class-wc-payments-notes-additional-payment-methods.php:109
+msgid "We detected a temporary issue with your account. Please try and connect your Stripe account."
+msgstr "我們偵測到你的帳號暫時發生問題。 請嘗試重新連結你的 Stripe 帳號。"
+
+#: includes/multi-currency/SettingsOnboardCta.php:57
+msgid "To add new currencies to your store, please finish setting up WooCommerce Payments."
+msgstr "若要在商店新增幣別，請完成 WooCommerce Payments 設定。"
+
+#: client/transactions/filters/config.ts:126
+msgid "Customer currency"
+msgstr "客戶貨幣"
+
+#: includes/payment-methods/class-upe-payment-gateway.php:99
+msgid "Popular payment methods"
+msgstr "熱門付款方式"
+
+#: includes/payment-methods/class-upe-payment-gateway.php:96
+msgid "Payments made simple, with no monthly fees - designed exclusively for WooCommerce stores. Accept credit cards, debit cards, and other popular payment methods."
+msgstr "付款變得簡單，不需支付月費：專為 WooCommerce 商店獨家提供。 接受信用卡、簽帳金融卡和其他熱門付款方式。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1432
+msgid "The refund amount is not valid."
+msgstr "退款金額無效。"
+
+#: includes/admin/class-wc-payments-admin.php:163
+msgid "The selected currency is not available for the country set in your WooCommerce Payments account."
+msgstr "所選貨幣無法用於你的 WooCommerce Payments 帳號設定的國家/地區。"
+
+#: includes/admin/class-wc-payments-admin.php:160
+msgid "Unsupported currency:"
+msgstr "不支援的貨幣："
+
+#. translators: %1$s: name of the blog, %2$s: link to payment re-authentication
+#. URL, note: no full stop due to url at the end.
+#. translators: %1$s: name of the blog, %2$s: link to checkout payment url,
+#. note: no full stop due to url at the end.
+#: includes/compat/subscriptions/emails/failed-renewal-authentication.php:18
+#: includes/compat/subscriptions/emails/plain/failed-renewal-authentication.php:17
+msgctxt "In failed renewal authentication email"
+msgid "The automatic payment to renew your subscription with %1$s has failed. To reactivate the subscription, please login and authorize the renewal from your account page: %2$s"
+msgstr "%1$s 的續訂自動付款失敗。 如要重新啟用訂購，請登入並從帳號頁面中授權續訂：%2$s"
+
+#. translators: %1$s: an order number, %2$s: the customer's full name, %3$s:
+#. lowercase human time diff in the form returned by wcs_get_human_time_diff(),
+#. e.g. 'in 12 hours'.
+#: includes/compat/subscriptions/emails/failed-renewal-authentication-requested.php:22
+#: includes/compat/subscriptions/emails/plain/failed-renewal-authentication-requested.php:18
+msgctxt "In admin renewal failed email"
+msgid "The automatic recurring payment for order %1$s from %2$s has failed. The customer was sent an email requesting authentication of payment. If the customer does not authenticate the payment, they will be requested by email again %3$s."
+msgstr "%2$s 的訂單 %1$s 無法完成自動定期付款。 系統已向顧客傳送一封要求付款授權的電子郵件。 如果顧客未授權付款，系統會%3$s重新傳送電子郵件要求。"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:116
+msgctxt "an email notification"
+msgid "Enable/disable"
+msgstr "啓用/停用"
+
+#: includes/payment-methods/class-upe-payment-gateway.php:900
+msgid "Unable to update UPE appearance values at this time."
+msgstr "目前無法更新 UPE 外觀數值。"
+
+#: includes/multi-currency/MultiCurrency.php:823
+msgid "Dismiss"
+msgstr "隱藏"
+
+#. translators: %1 User's country, %2 Selected currency name, %3 Default store
+#. currency name
+#: includes/multi-currency/MultiCurrency.php:808
+msgid "We noticed you're visiting from %1$s. We've updated our prices to %2$s for your shopping convenience. <a>Use %3$s instead.</a>"
+msgstr "我們發現你是從%1$s造訪本商店。 因此已將價格更新為 %2$s，方便你繼續購物。 <a>改用 %3$s。</a>"
+
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:236
+msgid ""
+"Almost there!\n"
+"\n"
+"Your order has already been created, the only thing that still needs to be done is for you to authorize the payment with your bank."
+msgstr ""
+"快完成了！\n"
+"\n"
+"你的訂單已建立完成，最後一步只要授權銀行付款即可。"
+
+#: includes/compat/subscriptions/emails/failed-renewal-authentication.php:18
+msgid "Authorize the payment &raquo;"
+msgstr "授權付款 »"
+
+#: includes/compat/subscriptions/emails/failed-renewal-authentication-requested.php:34
+#: includes/compat/subscriptions/emails/plain/failed-renewal-authentication-requested.php:27
+msgid "The renewal order is as follows:"
+msgstr "續訂訂單如下："
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:143
+msgid "Payment authorization needed for renewal of order {order_number}"
+msgstr "需要付款授權以續訂訂單 {order_number}"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:134
+msgid "Payment authorization needed for renewal of {site_title} order {order_number}"
+msgstr "需要付款授權以續訂 {site_title} 的訂單 {order_number}"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:118
+msgid "Enable this email notification"
+msgstr "啟用此電子郵件通知"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:33
+msgid "Sent to a customer when a renewal fails because the transaction requires an SCA verification. The email contains renewal order information and payment links."
+msgstr "於續訂失敗 (由於交易須進行 SCA 驗證) 時傳送給顧客。 該電子郵件包含續訂訂單資訊和付款連結。"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:32
+msgid "Failed subscription renewal SCA authentication"
+msgstr "續訂 SCA 驗證失敗"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-authentication-retry.php:30
+msgid "[{site_title}] Automatic payment failed for {order_number}. Customer asked to authenticate payment and will be notified again {retry_time}"
+msgstr "[{site_title}] Automatic payment failed for {order_number}. Customer asked to authenticate payment and will be notified again {retry_time}"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-authentication-retry.php:29
+msgid "Automatic renewal payment failed due to authentication required"
+msgstr "由於必須驗證，自動續訂付款失敗"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-authentication-retry.php:27
+msgid "Payment authentication requested emails are sent to chosen recipient(s) when an attempt to automatically process a subscription renewal payment fails because the transaction requires an SCA verification, the customer is requested to authenticate the payment, and a retry rule has been applied to notify the customer again within a certain time period."
+msgstr "系統嘗試自動處理續訂付款失敗時 (由於交易須進行 SCA 驗證)，就會傳送要求付款驗證的電子郵件給選定收件者。該顧客必須驗證付款；系統也已套用重試規則，並將於特定期限內再次通知顧客。"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-authentication-retry.php:26
+msgid "Payment authentication requested email"
+msgstr "要求付款驗證的電子郵件"
+
+#: includes/class-wc-payments-utils.php:238
+msgid "Singapore"
+msgstr "新加坡"
+
+#: includes/class-wc-payments-utils.php:237
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: includes/class-wc-payments-utils.php:236
+msgid "Poland"
+msgstr "Poland"
+
+#: includes/class-wc-payments-utils.php:234
+msgid "Netherlands"
+msgstr "荷蘭"
+
+#: includes/class-wc-payments-utils.php:231
+msgid "Hong Kong"
+msgstr "香港"
+
+#: includes/class-wc-payments-utils.php:226
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: includes/class-wc-payments-utils.php:224
+msgid "Belgium"
+msgstr "Belgium"
+
+#: includes/class-wc-payments-utils.php:222
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:100
+msgid "If WooCommerce Payments \"Saved cards\" should be enabled."
+msgstr "如果應啟用 WooCommerce Payments 的「儲存信用卡」功能。"
+
+#: includes/notes/class-wc-payments-notes-additional-payment-methods.php:73
+msgid "Enable on your store"
+msgstr "在你的商店啟用"
+
+#: includes/notes/class-wc-payments-notes-additional-payment-methods.php:66
+msgid "Get early access to additional payment methods and an improved checkout experience, coming soon to WooCommerce Payments. <a href=\"https://woocommerce.com/document/payments/additional-payment-methods/\" target=\"wcpay_upe_learn_more\">Learn more</a>"
+msgstr "搶先使用 WooCommerce Payments 即將推出的其他付款方式，提供更好的結帳體驗。 <a href=\"https://woocommerce.com/document/payments/additional-payment-methods/\" target=\"wcpay_upe_learn_more\">深入瞭解</a>"
+
+#. translators: %s List of currencies that are already translated in
+#. WooCommerce core.
+#: includes/multi-currency/AdminNotices.php:110
+msgid "The store currency was recently changed. The following currencies are set to manual rates and may need updates: %s"
+msgstr "商店幣別已在最近變更。 以下幣別設為表定費率，可能需要更新：%s"
+
+#: includes/multi-currency/AdminNotices.php:74
+msgid "Cheatin&#8217; huh?"
+msgstr "作弊呀？"
+
+#: includes/multi-currency/AdminNotices.php:70
+msgid "Action failed. Please refresh the page and retry."
+msgstr "動作失敗。 請重新整理頁面，然後重試。"
+
+#: includes/multi-currency/CurrencySwitcherWidget.php:66
+msgid "Display flags in supported devices"
+msgstr "在支援的裝置中顯示標幟"
+
+#: includes/notes/class-wc-payments-notes-additional-payment-methods.php:65
+msgid "Boost your sales by accepting new payment methods"
+msgstr "接受新付款方式，提高自家商店的銷量"
+
+#: includes/admin/class-wc-rest-upe-flag-toggle-controller.php:74
+msgid "Determines if the UPE feature flag is enabled."
+msgstr "決定是否啟用 UPE 功能標幟。"
+
+#: includes/admin/class-wc-payments-admin.php:711
+msgid "Refunding manually requires reimbursing your customer offline via cash, check, etc. The refund amounts entered here will only be used to balance your analytics."
+msgstr "手動退款需要使用網路以外的方式，透過現金、支票等退還款項。 此處輸入的退款金額只用於平衡分析。"
+
+#: includes/payment-methods/class-upe-payment-gateway.php:561
+msgid "Payment method successfully added."
+msgstr "成功新增付款方式。"
+
+#: includes/class-wc-payments-utils.php:239
+msgid "United States (US)"
+msgstr "United States (US)"
+
+#: includes/class-wc-payments-utils.php:235
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: includes/class-wc-payments-utils.php:233
+msgid "Italy"
+msgstr "義大利"
+
+#: includes/class-wc-payments-utils.php:232
+msgid "Ireland"
+msgstr "Ireland"
+
+#: includes/class-wc-payments-utils.php:230
+msgid "United Kingdom (UK)"
+msgstr "United Kingdom (UK)"
+
+#: includes/class-wc-payments-utils.php:229
+msgid "France"
+msgstr "法國"
+
+#: includes/class-wc-payments-utils.php:228
+msgid "Spain"
+msgstr "西班牙"
+
+#: includes/class-wc-payments-utils.php:227
+msgid "Germany"
+msgstr "德國"
+
+#: includes/class-wc-payments-utils.php:225
+msgid "Canada"
+msgstr "加拿大"
+
+#: includes/class-wc-payments-utils.php:223
+msgid "Australia"
+msgstr "澳大利亞"
+
+#. translators: The text encapsulated in `**` can be replaced with "Apple Pay"
+#. or "Google Pay". Please translate this text, but don't remove the `**`.
+#: includes/class-wc-payments-payment-request-button-handler.php:1652
+msgid "To complete your transaction with **the selected payment method**, you must log in or create an account with our site."
+msgstr "若要透過**選取的付款方式** 完成交易，你必須登入我們的網站或建立一個帳號。"
+
+#: includes/notes/class-wc-payments-notes-instant-deposits-eligible.php:43
+msgid "Request an instant deposit"
+msgstr "要求即時存款"
+
+#: includes/notes/class-wc-payments-notes-instant-deposits-eligible.php:33
+msgid "Get immediate access to your funds when you need them – including nights, weekends, and holidays. With WooCommerce Payments' <a>Instant Deposits feature</a>, you're able to transfer your earnings to a debit card within minutes."
+msgstr "需要資金時立即取得，不論是在夜間、週末或假日。 WooCommerce Payments <a>即時存款功能</a>，讓你在幾分鐘內將收益轉入簽帳金融卡。"
+
+#: includes/notes/class-wc-payments-notes-instant-deposits-eligible.php:30
+msgid "You’re now eligible to receive Instant Deposits with WooCommerce Payments"
+msgstr "你現在有資格透過 WooCommerce Payments 接收即時存款"
+
+#: includes/multi-currency/Notes/NoteMultiCurrencyAvailable.php:54
+#: includes/notes/class-wc-payments-notes-set-up-stripelink.php:85
+msgid "Set up now"
+msgstr "立即設定"
+
+#: includes/multi-currency/Notes/NoteMultiCurrencyAvailable.php:47
+msgid "Boost your international sales by allowing your customers to shop and pay in their local currency."
+msgstr "讓顧客以自己當地的幣別購物和付款，有助提高國際銷量。"
+
+#: includes/multi-currency/Notes/NoteMultiCurrencyAvailable.php:46
+msgid "Sell worldwide in multiple currencies"
+msgstr "以多種幣別在全球銷售"
+
+#: includes/class-wc-payment-gateway-wcpay.php:333
+msgid "Large"
+msgstr "大"
+
+#: includes/class-wc-payment-gateway-wcpay.php:332
+msgid "Medium"
+msgstr "中"
+
+#: includes/class-wc-payment-gateway-wcpay.php:327
+msgid "Select the size of the button."
+msgstr "選取按鈕大小。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:325
+msgid "Size of the button displayed for Express Checkouts"
+msgstr "快速結帳顯示的按鈕大小"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:209
+#: includes/admin/class-wc-rest-payments-settings-controller.php:263
+msgid "1-click checkout button themes."
+msgstr "一鍵結帳按鈕佈景主題。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:199
+#: includes/admin/class-wc-rest-payments-settings-controller.php:253
+msgid "1-click checkout button sizes."
+msgstr "一鍵結帳按鈕大小。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:190
+#: includes/admin/class-wc-rest-payments-settings-controller.php:243
+msgid "1-click checkout button types."
+msgstr "一鍵結帳按鈕類型。"
+
+#: includes/multi-currency/Settings.php:46
+#: includes/multi-currency/SettingsOnboardCta.php:38
+msgctxt "Settings tab label"
+msgid "Multi-currency"
+msgstr "多種幣別"
+
+#: includes/multi-currency/UserSettings.php:62
+msgid "Select your preferred currency for shopping and payments."
+msgstr "選取你慣用的幣別來購物付款。"
+
+#. translators: %s: url to documentation.
+#: includes/multi-currency/SettingsOnboardCta.php:78
+msgid "Accept payments in multiple currencies. Prices are converted based on exchange rates and rounding rules. <a href=\"%s\">Learn more</a>"
+msgstr "接受多種幣別的付款。 價格是根據匯率和四捨五入規則進行換算。 <a href=\"%s\">深入瞭解</a>"
+
+#: includes/multi-currency/CurrencySwitcherWidget.php:61
+msgid "Display currency symbols"
+msgstr "顯示幣別符號"
+
+#: includes/multi-currency/CurrencySwitcherWidget.php:56
+msgid "Title"
+msgstr "標題："
+
+#: includes/multi-currency/CurrencySwitcherWidget.php:51
+msgid "Let your customers switch between your enabled currencies"
+msgstr "讓顧客在啟用的幣別之間切換"
+
+#: client/payment-methods/delete-modal.tsx:19
+msgid "Remove"
+msgstr "移除"
+
+#: client/payment-methods/activation-modal.tsx:29
+#: client/vat/form/tasks/vat-number-task.tsx:116
+msgid "Continue"
+msgstr "繼續"
+
+#. translators: link to Stripe testing page
+#: includes/class-wc-payments-upe-checkout.php:225
+msgid "<strong>Test mode:</strong> use the test VISA card 4242424242424242 with any expiry date and CVC. Other payment methods may redirect to a Stripe test page to authorize payment. More test card numbers are listed <a>here</a>."
+msgstr "<strong>測試模式：</strong>使用 VISA 測試卡 4242424242424242，有效期限和 CVC 不拘。 其他付款方式可能會重新導向 Stripe 測試頁面以授權付款。 <a>此處</a>列出更多測試卡號。"
+
+#. translators: localized exception message
+#: includes/payment-methods/class-upe-payment-gateway.php:709
+msgid "UPE payment failed: %s"
+msgstr "UPE 付款失敗：%s"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:181
+#: includes/admin/class-wc-rest-payments-settings-controller.php:233
+msgid "Express checkout locations that should be enabled."
+msgstr "應啟用的快速結帳位置。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:176
+msgid "If WooCommerce Payments express checkouts should be enabled."
+msgstr "如果應啟用 WooCommerce Payments 快速結帳。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:120
+msgid "WooCommerce Payments bank account descriptor to be displayed in customers' bank accounts."
+msgstr "顯示在顧客銀行帳戶的 WooCommerce Payments 銀行帳戶描述元。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:105
+msgid "WooCommerce Payments test mode setting."
+msgstr "WooCommerce Payments 測試模式設定。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:95
+msgid "If WooCommerce Payments manual capture of charges should be enabled."
+msgstr "如果應啟用 WooCommerce Payments 人工請款。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:86
+msgid "Payment method IDs that should be enabled. Other methods will be disabled."
+msgstr "應啟用的付款方式 ID。 將停用其他方式。"
+
+#: includes/admin/class-wc-rest-payments-settings-controller.php:81
+msgid "If WooCommerce Payments should be enabled."
+msgstr "如果應啟用 WooCommerce Payments。"
+
+#: client/deposits/list/index.tsx:188 client/transactions/list/index.tsx:465
+#: client/transactions/uncaptured/index.tsx:171
+msgid "total"
+msgstr "總計"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:212
+#: includes/admin/class-wc-rest-payments-orders-controller.php:282
+#: includes/admin/class-wc-rest-payments-orders-controller.php:336
+#: includes/admin/class-wc-rest-payments-orders-controller.php:365
+msgid "Unexpected server error"
+msgstr "未預期的伺服器錯誤"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:194
+#: includes/admin/class-wc-rest-payments-orders-controller.php:264
+#: includes/class-wc-payment-gateway-wcpay.php:2640
+msgid "Unknown error"
+msgstr "發生未知的錯誤"
+
+#. translators: %s: the error message.
+#: includes/admin/class-wc-rest-payments-orders-controller.php:193
+#: includes/admin/class-wc-rest-payments-orders-controller.php:263
+msgid "Payment capture failed to complete with the following message: %s"
+msgstr "請款未能完成，訊息如下：%s"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:147
+#: includes/admin/class-wc-rest-payments-orders-controller.php:150
+#: includes/admin/class-wc-rest-payments-orders-controller.php:250
+#: includes/admin/class-wc-rest-payments-orders-controller.php:253
+msgid "The payment cannot be captured"
+msgstr "無法請款"
+
+#: includes/admin/class-wc-rest-payments-orders-controller.php:128
+#: includes/admin/class-wc-rest-payments-orders-controller.php:231
+#: includes/admin/class-wc-rest-payments-orders-controller.php:303
+#: includes/admin/class-wc-rest-payments-orders-controller.php:351
+#: includes/admin/class-wc-rest-payments-reader-controller.php:284
+msgid "Order not found"
+msgstr "找不到訂單"
+
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:46
+#: includes/subscriptions/templates/html-wcpay-deactivate-warning.php:47
+#: client/payment-methods/activation-modal.tsx:28
+#: client/payment-methods/delete-modal.tsx:20
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-wc-payment-gateway-wcpay.php:186
+#: client/payment-methods-map.ts:20
+msgid "Credit card / debit card"
+msgstr "信用卡/簽帳金融卡"
+
+#: client/components/file-upload/index.tsx:44
+#: client/settings/express-checkout-settings/file-upload.tsx:145
+msgid "Remove file"
+msgstr "移除檔案"
+
+#: client/empty-state-table/list.tsx:47 client/onboarding/strings.ts:7
+msgid "Finish setup"
+msgstr "完成設定"
+
+#: includes/class-wc-payments-token-service.php:218
+msgid "SEPA IBAN"
+msgstr "SEPA IBAN"
+
+#. translators: last 4 digits of IBAN account
+#: includes/class-wc-payment-token-wcpay-sepa.php:53
+msgid "SEPA IBAN ending in %s"
+msgstr "SEPA IBAN 結尾是 %s"
+
+#. translators: %1: intent ID
+#: includes/class-wc-payments-webhook-processing-service.php:661
+msgid "Could not find order via intent ID: %1$s"
+msgstr "使用以下用途 ID 找不到訂單：%1$s"
+
+#: client/transactions/strings.ts:13
+msgid "Refund failure"
+msgstr "退款失敗"
+
+#: client/transactions/uncaptured/index.tsx:47
+msgid "Order number"
+msgstr "訂單號碼"
+
+#: client/transactions/list/index.tsx:115
+msgid "Date and time"
+msgstr "日期和時間"
+
+#: client/documents/list/index.tsx:129
+msgid "Download"
+msgstr "下載"
+
+#: client/transactions/uncaptured/index.tsx:52
+msgid "Risk level"
+msgstr "風險等級"
+
+#: client/documents/filters/config.ts:46
+#: client/transactions/filters/config.ts:103
+msgid "{{title}}Date{{/title}} {{rule /}} {{filter /}}"
+msgstr "{{title}}發佈日期{{/title}} {{rule /}} {{filter /}}"
+
+#: client/documents/filters/config.ts:29
+#: client/transactions/filters/config.ts:81
+msgid "Advanced filters"
+msgstr "進階篩選條件"
+
+#: client/documents/filters/config.ts:19
+#: client/transactions/filters/config.ts:64
+msgid "Show"
+msgstr "顯示"
+
+#: client/transactions/filters/config.ts:57
+msgid "All currencies"
+msgstr "所有幣別"
+
+#: client/transactions/filters/config.ts:156
+msgid "{{title}}Type{{/title}} {{rule /}} {{filter /}}"
+msgstr "{{title}}類型{{/title}} {{rule /}} {{filter /}}"
+
+#: client/documents/filters/config.ts:60
+#: client/transactions/filters/config.ts:117
+msgid "Between"
+msgstr "之間"
+
+#: client/documents/filters/config.ts:56
+#: client/transactions/filters/config.ts:113
+msgid "After"
+msgstr "之後"
+
+#: client/documents/filters/config.ts:52
+#: client/transactions/filters/config.ts:109
+msgid "Before"
+msgstr "之前"
+
+#: client/transactions/list/index.tsx:154
+msgid "Net"
+msgstr "淨額"
+
+#: client/payment-details/summary/index.tsx:116
+msgid "Fee"
+msgstr "費用"
+
+#: client/vat/form/tasks/company-data-task.tsx:98
+msgid "Address"
+msgstr "位址"
+
+#: client/payment-details/summary/index.tsx:75
+msgid "Payment method"
+msgstr "付款方式"
+
+#: client/disputes/strings.ts:53
+msgid "If there have been two or more separate payments, you should get in touch with your customer. If you understand what their complaint is, there is a chance for you to explain the misunderstanding or to make it right. If you’re able to resolve the issue with your customer, you can ask that they withdraw the dispute."
+msgstr "如果有兩筆以上單獨付款，請與顧客聯絡。 如果瞭解顧客申訴的內容，就有機會解開誤會或彌補過錯。 如果能夠解決顧客的問題，就能請求他們撤銷爭議。"
+
+#: client/disputes/strings.ts:52
+msgid "If they were not, collect any and all information documenting that each payment was made separately, such as copies of receipts. If the receipts don’t include the items purchased, be sure to include an itemized list. Each receipt should clearly indicate that the payments are for separate purchases of items or services. If you’ve been able to get in touch with the customer you should be sure to address any concerns they had in your evidence."
+msgstr "如果不是，請收集每筆付款是單獨支付的任何一切資訊，例如收據副本。 如果收據未包括購買項目，請務必附上明細清單。 每張收據都應清楚顯示每個購買項目或服務都是單獨付款。 如果能夠與顧客取得聯繫，請務必解答他們對證據提出的任何疑問。"
+
+#: client/disputes/strings.ts:51
+msgid "Determine if your customer was incorrectly charged multiple times."
+msgstr "判斷顧客是否被多次誤收費用。"
+
+#: client/disputes/strings.ts:48
+msgid "Demonstrate that each payment was for a separate product or service."
+msgstr "證明每筆付款都是單獨產品或服務的費用。"
+
+#: client/disputes/strings.ts:45
+msgid "The customer claims they were charged multiple times for the same product or service."
+msgstr "顧客認為他們因同一產品或服務被多次收費。"
+
+#: client/disputes/strings.ts:42
+msgid "If there were duplicate payments, you should accept the dispute. You cannot issue a refund while a payment is being disputed. The credit card networks place liability for accepting disputed payments with you, the business."
+msgstr "如果付款有重複，則應受理爭議。 付款有爭議，無法退款。 付款若有爭議，信用卡組織會將接受爭議性付款的責任歸於你 (商家)。"
+
+#: client/disputes/strings.ts:39
+msgid "Duplicate"
+msgstr "再製"
+
+#: client/disputes/strings.ts:36
+msgid "Debit not authorized"
+msgstr "未授權扣款"
+
+#: client/disputes/strings.ts:33
+msgid "Customer initiated"
+msgstr "顧客提出"
+
+#: client/disputes/strings.ts:29
+msgid "If the cardholder agrees to withdraw the dispute, you should still submit evidence for the dispute using the forms on the next screen. In addition to the following evidence, your submission should include correspondence with the cardholder saying they would withdraw the dispute and a written statement from their card issuer confirming that the dispute has been withdrawn."
+msgstr "如果持卡人同意撤銷爭議，你還是應該使用下一個畫面的表單，就爭議內容送出相關證據。 除了以下證據外，你送出的材料應包括同持卡人的往來信件，內容表明持卡人願意撤銷爭議，另外也應包括持卡人發卡單位確認已撤銷爭議的書面聲明。"
+
+#: client/disputes/strings.ts:28
+msgid "You should first get in touch with your customer. If you understand what their complaint is, there is a chance for you to explain the misunderstanding or to make it right. If you’re able to resolve the issue with your customer, you can ask that they withdraw the dispute."
+msgstr "你應先與顧客取得聯繫。 如果瞭解顧客申訴的內容，就有機會解開誤會或彌補過錯。 如果能夠解決顧客的問題，就能請求他們撤銷爭議。"
+
+#: client/disputes/strings.ts:25
+msgid "Demonstrate that you have refunded your customer through other means or that your customer is not entitled to a refund. You cannot issue a refund while a payment is being disputed. If you believe that your customer was entitled a refund that you did not provide, you can accept the dispute."
+msgstr "證明你已透過其他方式退款給顧客，或顧客無權要求退款。 付款有爭議，無法退款。 如果認為顧客有權獲得你並未退還的款項，可以受理爭議。"
+
+#: client/disputes/strings.ts:159
+msgid "It may be more efficient—and provide a better customer experience—to accept an accidental dispute and charge the customer again, if appropriate. Even when a dispute is withdrawn, it usually takes approximately 75 days to be finalized. Remember, it doesn’t matter to the card networks whether you win or lose a dispute; what matters is how many disputes a business receives, regardless of how many disputes are won."
+msgstr "可以的話，請先受理爭議再向顧客重新收費，這樣不僅可以提高效率，也能帶來滿意的顧客體驗。 即使顧客撤銷爭議，通常需要約 75 天才能定案。 提醒你，勝訴或敗訴對信用卡機構並不重要，重要的是商家收到多少爭議案件，而不是贏得多少爭議案件。"
+
+#: client/disputes/strings.ts:22
+msgid "The customer claims that the purchased product was returned or the transaction was otherwise canceled, but you have not yet provided a refund or credit."
+msgstr "顧客聲稱已退回購買的產品或以其他方式取消交易，但你尚未退還款項或刷退。"
+
+#: client/disputes/strings.ts:158
+msgid "First, try to get in touch with your customer. Sometimes people forget about payments they make or don’t recognize the way they appear on their card statement. If this is the case, ask them to contact their card issuer and let them know they no longer dispute the transaction. Even if your customer agrees to withdraw the dispute, you must still submit appropriate evidence. Simply saying that your customer is going to withdraw the dispute is not sufficient evidence."
+msgstr "請先與顧客取得聯繫。 有時顧客會忘記他們付過的款項，或無法確認信用卡對帳單上的款項。 如果是這種情況，請顧客聯絡自己的發卡機構，讓發卡機構知道顧客不再對該筆交易有爭議。 即使顧客同意撤銷爭議，你還是必須送出適當的證據。 只說明顧客將撤銷爭議，無法充分證明顧客同意撤銷爭議。"
+
+#: client/disputes/strings.ts:155
+msgid "As with fraudulent disputes, get your customer to withdraw the dispute by helping them identify the payment. Otherwise challenge the dispute with appropriate evidence that proves the purchase was legitimate. "
+msgstr "這跟詐欺性爭議一樣，協助顧客識別付款的目的是為了讓他們撤銷爭議。 否則請提出相關證據反駁爭議，證明顧客已合法購得該項目。 "
+
+#: client/disputes/strings.ts:152
+msgid "The customer doesn’t recognize the payment appearing on their card statement."
+msgstr "顧客無法確認信用卡對帳單上的該筆付款。"
+
+#: client/disputes/strings.ts:149
+msgid "If you can not prove the customer’s subscription was canceled, and or they did not follow your cancelation policy, you should accept the dispute. You cannot issue a refund while a payment is being disputed. The credit card networks place liability for accepting disputed payments with you, the business."
+msgstr "如果無法證明顧客的訂購已取消，亦或證明他們未依照你的政策取消，則應受理爭議。 付款有爭議，無法退款。 付款若有爭議，信用卡組織會將接受爭議性付款的責任歸於你 (商家)。"
+
+#: client/disputes/strings.ts:148
+msgid "If you believe the dispute is invalid, you can challenge it by submitting the appropriate evidence using the response forms on the next screen."
+msgstr "如果認為爭議無效，可以使用下一個畫面的回覆表單送出相關證據反駁爭議。"
+
+#: client/disputes/strings.ts:146
+msgid "Unrecognized"
+msgstr "無法確認"
+
+#: client/disputes/strings.ts:142
+msgid "Otherwise, use the forms on the next screen to submit evidence that the subscription was still active and that the customer was aware of, and did not follow, your cancellation procedure."
+msgstr "否則請使用下一個畫面的表單送出訂購仍然有效的證據，並讓顧客知道他們並未依照你的程序取消。"
+
+#: client/disputes/strings.ts:141
+msgid "Even if your customer agrees to withdraw the dispute, you must still submit appropriate evidence using the forms on the next screen. Simply saying that your customer is going to withdraw the dispute is not sufficient evidence."
+msgstr "即使顧客同意撤銷爭議，你還是必須使用下一個畫面的表單送出相關證據。 只說明顧客將撤銷爭議，無法充分證明顧客同意撤銷爭議。"
+
+#: client/disputes/strings.ts:140
+msgid "First, get in touch with your customer. If you understand what they believe happened, there is a chance for you to explain the misunderstanding or to make it right. "
+msgstr "請先與顧客取得聯繫。 如果瞭解顧客認為自己遇上的事，就有機會解開誤會或彌補過錯。 "
+
+#: client/disputes/strings.ts:137
+msgid "Prove that the subscription was still active and that the customer was aware of, and did not follow, your cancellation procedure."
+msgstr "證明訂購仍然有效，並讓顧客知道他們並未依照你的程序取消。"
+
+#: client/disputes/strings.ts:134
+msgid "The customer claims that you continued to charge them after a subscription was canceled."
+msgstr "顧客聲稱你在訂購取消後繼續向他們收費。"
+
+#: client/disputes/strings.ts:19
+msgid "If your customer was not refunded appropriately, you will need to accept the dispute, or resolve the issue with your customer. The credit card networks place liability for accepting disputed payments with you, the business."
+msgstr "如果未正確退款給顧客，則須受理爭議，或解決顧客的問題。 付款若有爭議，信用卡組織會將接受爭議性付款的責任歸於你 (商家)。"
+
+#: client/disputes/strings.ts:128
+msgid "Subscription canceled"
+msgstr "訂購已取消"
+
+#: client/disputes/strings.ts:124
+msgid "If the customer withdraws their dispute you should still submit evidence using the forms on the next screen. Be sure to provide a letter or email from the cardholder stating that they are no longer in dispute."
+msgstr "如果顧客同意撤銷爭議，你還是應該使用下一個畫面的表單送出相關證據。 請務必提供持卡人表明自己不再有爭議的信函或電子郵件。"
+
+#: client/disputes/strings.ts:123
+msgid "If your customer made no attempt to return the product or cancel the service, or if you provided a replacement product or service, make sure to note that as well."
+msgstr "如果顧客並未嘗試退回產品或取消服務，或者如果你提供了替代產品或服務，亦請務必注意這一點。"
+
+#: client/disputes/strings.ts:122
+msgid "For products that have been repaired or replaced, provide evidence that the cardholder agreed to a repair or replacement, it has been received by the customer, and the repair or replacement has not since been disputed."
+msgstr "對於已維修或已更換的產品，請提供相關證據，證明持卡人同意維修或更換、顧客已簽收，以及維修或更換後無爭議的事實。"
+
+#: client/disputes/strings.ts:121
+msgid "If the customer has not yet returned the product or canceled the service, provide specific information to that effect. You should double-check your incoming shipping records to verify that you have not received a return before you respond. If you have processed a credit or reversal for this transaction, provide evidence of this which includes the amount and date processed."
+msgstr "如果顧客尚未退回產品或取消服務，請提供相關具體資訊。 請在回覆之前檢查收貨記錄，確認沒有收到退貨。 如果已刷退或已撤銷這筆交易，請提供包含處理金額和日期的相關證據。"
+
+#: client/disputes/strings.ts:120
+msgid "If the product or service is as described, provide specific information (invoice, contract, etc.) to refute the cardholder’s claims. Quality disputes are where the customer does not agree with the condition of merchandise or service received (e.g., a car repair situation or quality of a hotel room). There may be instances where you will need to obtain a neutral third-party opinion to help corroborate your claim against the cardholder. Provide as much specific information and documentation as possible to refute the cardholder’s claims. It is recommended that you address each point that the cardholder has made."
+msgstr "如果產品或服務與描述相符，請提供具體資訊 (發票、合約等) 反駁持卡人的說詞。 品質爭議是指顧客不同意收到商品或服務時的狀態 (例如汽車維修情況或飯店房間品質)。 為反駁持卡人，在某些情況下你需要中立第三方的意見證實你的說詞。 請盡可能多提供具體資訊和文件，反駁持卡人的說詞。 建議回應持卡人提出的每一個論點。"
+
+#: client/disputes/strings.ts:117
+msgid "Demonstrate that the product or service was delivered as described at the time of purchase."
+msgstr "證明產品或服務已如前所述在顧客購買時交付。"
+
+#: client/disputes/strings.ts:114
+msgid "The product or service was received but was defective, damaged, or not as described."
+msgstr "已收到產品或服務，但有缺陷、損壞或與描述不符。"
+
+#: client/disputes/strings.ts:111
+msgid "If you can not prove the customer received their product or service as described, you should accept the dispute. You cannot issue a refund while a payment is being disputed. The credit card networks place liability for accepting disputed payments with you, the business."
+msgstr "如果無法證明顧客已如前所述收到了產品或服務，則應受理爭議。 付款有爭議，無法退款。 付款若有爭議，信用卡組織會將接受爭議性付款的責任歸於你 (商家)。"
+
+#: client/disputes/strings.ts:108
+msgid "Product unacceptable"
+msgstr "產品有問題"
+
+#: client/disputes/strings.ts:16
+msgid "Credit not processed"
+msgstr "未刷退"
+
+#: client/disputes/strings.ts:103
+msgid "First, get in touch with your customer. Understanding why they filed the dispute will be important for helping make sure your customer gets the product and will give you critical information to prevent this from happening to others."
+msgstr "請先與顧客取得聯繫。 瞭解顧客提出爭議的原因至關重要，這樣不僅可確認顧客收到產品，還能讓你取得重要資訊，以防同樣情況再度發生。"
+
+#: client/disputes/strings.ts:100
+msgid "Prove that the customer received a physical product or offline service, or made use of a digital product or online service. This must have occurred prior to the date the dispute was initiated."
+msgstr "證明顧客已收到實體產品或非線上服務，或已使用數位產品或線上服務。 這必須發生在提出爭議當日之前。"
+
+#: client/disputes/strings.ts:97
+msgid "The customer claims they did not receive the products or services purchased."
+msgstr "顧客聲稱沒有收到購買的產品或服務。"
+
+#: client/disputes/strings.ts:94
+msgid "If you can not prove the customer received their product or service, you should accept the dispute. You cannot issue a refund while a payment is being disputed. The credit card networks place liability for accepting disputed payments with you, the business."
+msgstr "如果無法證明顧客已收到產品或服務，則應受理爭議。 付款有爭議，無法退款。 付款若有爭議，信用卡組織會將接受爭議性付款的責任歸於你 (商家)。"
+
+#: client/disputes/strings.ts:91
+msgid "Product not received"
+msgstr "未收到產品"
+
+#: client/disputes/strings.ts:88
+msgid "Insufficient funds"
+msgstr "餘額不足"
+
+#: client/disputes/strings.ts:13
+msgid "Check returned"
+msgstr "已退回支票"
+
+#: client/disputes/strings.ts:85
+msgid "Incorrect account details"
+msgstr "帳戶詳細資料不正確"
+
+#: client/disputes/strings.ts:81
+msgid "This is an uncategorized dispute, so you should contact the customer for additional details to find out why the payment was disputed."
+msgstr "此爭議未分類，你應與顧客聯絡取得其他詳細資訊，以瞭解付款有爭議的原因。"
+
+#: client/disputes/strings.ts:10
+msgid "Bank cannot process"
+msgstr "銀行無法處理"
+
+#: client/disputes/strings.ts:70
+msgid "Try to get in touch with your customer. Sometimes people forget about payments they make or don’t recognize the way they appear on their card statement. If this is the case, ask them to contact their card issuer and let them know they no longer dispute the transaction."
+msgstr "請與顧客取得聯繫。 有時顧客會忘記他們付過的款項，或無法確認信用卡對帳單上的款項。 如果是這種情況，請顧客聯絡自己的發卡機構，讓發卡機構知道顧客不再對該筆交易有爭議。"
+
+#: client/disputes/strings.ts:67
+msgid "Provide adequate payment and order details so that a legitimate customer recognizes it, or proves to the card issuer that their cardholder authorized the transaction."
+msgstr "請針對付款和訂單提供充分的詳細資訊，以供合法顧客識別，或向發卡機構證明其持卡人已授權交易。"
+
+#: client/disputes/strings.ts:64
+msgid "This is the most common reason for a dispute, and happens when a cardholder claims that they didn’t authorize the payment. This can happen if the card was lost or stolen and used to make a fraudulent purchase. It can also happen if the cardholder doesn’t recognize the payment as it appears on the billing statement from their card issuer."
+msgstr "這是最常引起爭議的原因，發生在持卡人聲稱他們未授權付款時。 如果卡片遺失或遭竊，並被他人盜用消費，就可能發生這種情況。 如果持卡人無法識別其發卡機構顯示在帳單的付款，也可能發生這種情況。"
+
+#: client/disputes/strings.ts:61
+msgid "If you believe the payment was actually made using a stolen credit card, you will need to accept the dispute. The credit card networks place liability for accepting fraudulent payments with you, the business."
+msgstr "如果你相信付款實際上是以盜用的信用卡付款，你將需要受理爭議。 付款若有爭議，信用卡組織會將接受詐騙付款的責任歸於你 (商家)。"
+
+#: client/disputes/strings.ts:58
+msgid "Fraudulent"
+msgstr "詐騙"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:132
+#: client/payment-details/summary/index.tsx:64
+#: client/transactions/uncaptured/index.tsx:46
+msgid "Order"
+msgstr "訂單"
+
+#: client/disputes/info/index.tsx:23
+msgid "Respond by"
+msgstr "回覆人："
+
+#: client/disputes/index.tsx:154
+#: client/onboarding/tasks/add-business-info-task/index.tsx:54
+#: client/transactions/list/index.tsx:192
+#: client/transactions/uncaptured/index.tsx:73
+msgid "Country"
+msgstr "國家/地區"
+
+#: client/transactions/list/index.tsx:185
+#: client/transactions/uncaptured/index.tsx:66
+msgid "Email"
+msgstr "電子郵件"
+
+#: client/disputes/info/index.tsx:26
+#: client/payment-details/summary/index.tsx:60
+#: client/transactions/list/index.tsx:179
+msgid "Customer"
+msgstr "顧客"
+
+#: client/transactions/list/index.tsx:173
+msgid "Source"
+msgstr "來源"
+
+#: client/disputes/info/index.tsx:24
+msgid "Reason"
+msgstr "原因"
+
+#: client/components/file-upload/index.tsx:41
+msgid "Upload file"
+msgstr "上傳檔案"
+
+#: client/transactions/list/deposit.tsx:22
+msgid "Estimated"
+msgstr "估計營收"
+
+#: client/capital/index.tsx:34 client/card-readers/list/index.tsx:29
+#: client/disputes/filters/config.ts:110 client/disputes/index.tsx:114
+msgid "Status"
+msgstr "狀態"
+
+#: client/deposits/list/index.tsx:110 client/disputes/index.tsx:100
+#: client/transactions/list/index.tsx:140
+#: client/transactions/uncaptured/index.tsx:59
+msgid "Amount"
+msgstr "金額"
+
+#: client/documents/filters/config.ts:69 client/documents/list/index.tsx:38
+#: client/transactions/filters/config.ts:152
+#: client/transactions/list/index.tsx:126
+msgid "Type"
+msgstr "類型"
+
+#: client/deposits/list/index.tsx:92 client/documents/filters/config.ts:42
+#: client/documents/list/index.tsx:26
+#: client/payment-details/summary/index.tsx:50
+#: client/transactions/filters/config.ts:99
+msgid "Date"
+msgstr "日期"
+
+#: client/transactions/filters/config.ts:39
+msgid "Deposit currency"
+msgstr "存款幣別"
+
+#: client/transactions/list/index.tsx:206
+msgid "Deposit date"
+msgstr "存款日期"
+
+#: client/deposits/strings.ts:11
+msgid "Paid"
+msgstr "已付款"
+
+#: client/payment-details/summary/index.tsx:113
+msgid "Refunded"
+msgstr "已退費"
+
+#: client/components/dispute-status-chip/mappings.ts:37
+#: client/disputes/strings.ts:172
+msgid "Lost"
+msgstr "敗訴"
+
+#: client/components/dispute-status-chip/mappings.ts:33
+#: client/disputes/strings.ts:171
+msgid "Won"
+msgstr "勝訴"
+
+#: client/components/dispute-status-chip/mappings.ts:29
+#: client/disputes/strings.ts:170
+msgid "Charge refunded"
+msgstr "已退款"
+
+#: client/components/dispute-status-chip/mappings.ts:25
+#: client/disputes/strings.ts:169
+msgid "Under review"
+msgstr "審理中"
+
+#: client/components/dispute-status-chip/mappings.ts:21
+#: client/disputes/filters/config.ts:62 client/disputes/strings.ts:168
+msgid "Needs response"
+msgstr "需要回應"
+
+#: client/components/dispute-status-chip/mappings.ts:17
+#: client/disputes/strings.ts:167
+msgid "Inquiry: Closed"
+msgstr "調查：結案"
+
+#: client/components/dispute-status-chip/mappings.ts:13
+#: client/disputes/strings.ts:166
+msgid "Inquiry: Under review"
+msgstr "調查：審理中"
+
+#: client/components/dispute-status-chip/mappings.ts:9
+#: client/disputes/strings.ts:165
+msgid "Inquiry: Needs response"
+msgstr "調查：需要回應"
+
+#: client/utils/account-fees.tsx:114
+msgid "Learn more"
+msgstr "瞭解詳情"
+
+#. translators: This is an error API response.
+#: includes/wc-payment-api/class-wc-payments-api-client.php:2256
+msgctxt "API error message to throw as Exception"
+msgid "Error: %1$s"
+msgstr "錯誤：%1$s"
+
+#: woocommerce-payments.php:254
+msgid "The version of Jetpack installed is too old to be used with WooCommerce Payments. WooCommerce Payments has been disabled. Please deactivate or update Jetpack."
+msgstr "安裝的 Jetpack 版本太舊，無法與 WooCommerce Payments 一起使用。 已停用 WooCommerce Payments。 請停用或更新 Jetpack。"
+
+#. translators: %1: original error message.
+#: includes/class-wc-payments.php:1158
+#: includes/wc-payment-api/class-wc-payments-http.php:114
+msgid "Http request failed. Reason: %1$s"
+msgstr "Http 要求失敗。 原因：%1$s"
+
+#: includes/wc-payment-api/class-wc-payments-http.php:55
+msgid "Site is not connected to WordPress.com"
+msgstr "網站未與 WordPress.com 連結"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:2251
+msgid "Server error. Please try again."
+msgstr "伺服器錯誤。 請再試一次。"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:2217
+msgid "Unable to decode response from WooCommerce Payments API"
+msgstr "無法針對 WooCommerce Payments API 的回應解碼"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:2058
+msgid "Unable to encode body for request to WooCommerce Payments API."
+msgstr "無法針對 WooCommerce Payments API 要求的內文編碼。"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:1367
+msgid "Customer ID is required"
+msgstr "顧客 ID 必填"
+
+#: includes/wc-payment-api/class-wc-payments-api-client.php:989
+msgid "Max file size exceeded."
+msgstr "超過檔案大小上限。"
+
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:36
+msgid "Protect your merchant account from fraudulent disputes by defining the policy and making it accessible to customers."
+msgstr "制定政策並供顧客查看，可避免商家帳號遇到詐騙爭議。"
+
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:35
+msgid "Set up refund policy"
+msgstr "設定退款政策"
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:56
+msgid "Share feedback"
+msgstr "分享意見回饋"
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:49
+msgid "Share your feedback in this 2 minute survey about how we can make the process of accepting payments more useful for your store."
+msgstr "懇請你花 2 分鐘完成問卷調查，與我們分享你的寶貴意見，幫助我們改善商店接受付款的流程。"
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:48
+msgid "Help us make improvements to WooCommerce Payments"
+msgstr "協助我們改善 WooCommerce Payments"
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:59
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:43
+msgid "Read more"
+msgstr "閱讀全文"
+
+#. translators: 1: payment method likely credit card, 2: last 4 digit.
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:597
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:616
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:657
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:665
+msgid "%1$s ending in %2$s"
+msgstr "%1$s 的結尾為 %2$s"
+
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:509
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:563
+msgid "Please select a payment method"
+msgstr "請選取付款方式"
+
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:429
+msgid "The saved payment method selected does not belong to this order's customer."
+msgstr "從儲存選項選取的付款方式，不屬於此訂單的顧客。"
+
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:422
+msgid "The saved payment method selected is invalid or does not exist."
+msgstr "從儲存選項選取的付款方式無效或不存在。"
+
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:413
+msgid "A customer saved payment method was not selected for this order."
+msgstr "顧客未在這筆訂單選取儲存的付款方式。"
+
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:342
+msgid "Saved payment method"
+msgstr "儲存的付款方式"
+
+#: includes/class-wc-payments-dependency-service.php:287
+msgid "Update WordPress"
+msgstr "更新 WordPress"
+
+#. translators: %1: required WP version number, %2: currently installed WP
+#. version number
+#: includes/class-wc-payments-dependency-service.php:280
+msgid "WooCommerce Payments requires <strong>WordPress %1$s</strong> or greater (you are using %2$s)."
+msgstr "需要 <strong>WordPress%1$s</strong> 或更高版本才能使用 WooCommerce Payments；目前使用的版本是 %2$s。 "
+
+#: includes/class-wc-payments-dependency-service.php:272
+msgid "Use the bundled version of WooCommerce Admin"
+msgstr "使用搭售版本的 WooCommerce Admin "
+
+#: includes/class-wc-payments-dependency-service.php:268
+msgid "There is a newer version of WooCommerce Admin bundled with WooCommerce."
+msgstr "WooCommerce 現在有更新版本的 WooCommerce Admin 搭售方案。"
+
+#. translators: %1: required WC-Admin version number, %2: currently installed
+#. WC-Admin version number
+#: includes/class-wc-payments-dependency-service.php:260
+msgid "WooCommerce Payments requires <strong>WooCommerce Admin %1$s</strong> or greater to be installed (you are using %2$s)."
+msgstr "需要安裝 <strong>WooCommerce Admin%1$s</strong> 或更高版本才能使用 WooCommerce Payments；目前使用的版本是 %2$s。"
+
+#: includes/class-wc-payments-dependency-service.php:251
+msgid "WooCommerce Payments requires WooCommerce Admin to be enabled. Please remove the <code>woocommerce_admin_disabled</code> filter to use WooCommerce Payments."
+msgstr "需要啟用 WooCommerce Admin 才能使用 WooCommerce Payments。 請移除 <code>woocommerce_admin_disabled</code> 篩選條件才能使用 WooCommerce Payments。"
+
+#. translators: %1: current WooCommerce Payment version, %2: required WC
+#. version number, %3: currently installed WC version number
+#: includes/class-wc-payments-dependency-service.php:225
+msgid "WooCommerce Payments %1$s requires <strong>WooCommerce %2$s</strong> or greater to be installed (you are using %3$s). "
+msgstr "需要安裝 <strong>WooCommerce %2$s</strong> 或更高版本才能使用 WooCommerce Payments %1$s；目前使用的版本是 %3$s。 "
+
+#: includes/class-wc-payments-dependency-service.php:215
+msgid "Activate WooCommerce"
+msgstr "啟用 WooCommerce"
+
+#: includes/class-wc-payments-dependency-service.php:211
+msgid "Install WooCommerce"
+msgstr "安裝 WooCommerce"
+
+#: includes/class-wc-payments-dependency-service.php:203
+msgid "WooCommerce Payments requires <a>WooCommerce</a> to be installed and active."
+msgstr "需要安裝並啟用 <a>WooCommerce</a> 才能使用 WooCommerce Payments。"
+
+#: includes/class-wc-payments-utils.php:272
+#: client/transactions/list/index.tsx:167
+msgid "Subscription #"
+msgstr "訂購 #"
+
+#: includes/class-wc-payments-utils.php:262
+#: client/disputes/index.tsx:135 client/transactions/list/index.tsx:161
+msgid "Order #"
+msgstr "訂單號碼"
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payments-order-service.php:571
+msgid "Payment authorization has <strong>expired</strong> (<a>%1$s</a>)."
+msgstr "付款授權<strong>已過期</strong> (<a>%1$s</a>)。"
+
+#: includes/class-wc-payments-captured-event-note.php:323
+#: includes/class-wc-payments-payment-request-button-handler.php:1572
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:160
+msgid "Discount"
+msgstr "折扣"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1391
+msgid "Empty cart"
+msgstr "清空購物車"
+
+#. translators: %s: country.
+#: includes/class-wc-payments-payment-request-button-handler.php:1378
+msgid "The payment request button is not supported in %s because some required fields couldn't be verified. Please proceed to the checkout page and try again."
+msgstr "無法驗證某些必填欄位，%s因此不支援「請款」按鈕。 請前往結帳頁面，然後再試一次。"
+
+#. translators: 1: product name 2: quantity in stock
+#: includes/class-wc-payments-payment-request-button-handler.php:1055
+msgid "You cannot add that amount of \"%1$s\"; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "你不能在購物車放入這個數量的「%1$s」，因為目前庫存不足 (剩餘量：%2$s)。"
+
+#. translators: product ID
+#: includes/class-wc-payments-payment-request-button-handler.php:1034
+msgid "Product with the ID (%d) cannot be found."
+msgstr "找不到產品 ID (%d)。"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:922
+#: includes/class-wc-payments-payment-request-button-handler.php:935
+msgid "Unable to find shipping method for address."
+msgstr "找不到地址的運送方式。"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:801
+#: includes/class-wc-payments-platform-checkout-button-handler.php:314
+msgid "OR"
+msgstr "或者"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:318
+#: includes/class-wc-payments-payment-request-button-handler.php:1091
+msgid "Pending"
+msgstr "待處理"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:311
+#: includes/class-wc-payments-payment-request-button-handler.php:1084
+#: includes/class-wc-payments-payment-request-button-handler.php:1565
+msgid "Shipping"
+msgstr "運送方式"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:303
+#: includes/class-wc-payments-payment-request-button-handler.php:360
+#: includes/class-wc-payments-payment-request-button-handler.php:1076
+#: includes/class-wc-payments-payment-request-button-handler.php:1557
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:185
+msgid "Tax"
+msgstr "稅金"
+
+#. translators: %1$s Name.
+#: includes/class-wc-payments-customer-service.php:300
+msgid "Name: %1$s, Guest"
+msgstr "姓名：%1$s，訪客"
+
+#. translators: %1$s Name, %2$s Username.
+#: includes/class-wc-payments-customer-service.php:296
+msgid "Name: %1$s, Username: %2$s"
+msgstr "姓名：%1$s，使用者名稱：%2$s"
+
+#: includes/class-wc-payments-apple-pay-registration.php:397
+msgid "Apple Pay domain verification failed with the following error:"
+msgstr "Apple Pay 網域驗證失敗，出現以下錯誤："
+
+#: includes/class-wc-payments-apple-pay-registration.php:396
+msgid "Apple Pay domain verification failed."
+msgstr "Apple Pay 網域驗證失敗。"
+
+#: includes/class-wc-payments-apple-pay-registration.php:362
+msgid "Express checkouts are enabled. To use Apple Pay, please use a live WooCommerce Payments account."
+msgstr "已啟用快速結帳。 若要使用 Apple Pay，請使用 WooCommerce Payments 真實帳號。"
+
+#: includes/class-wc-payments-apple-pay-registration.php:272
+msgid "Your domain has been verified with Apple Pay!"
+msgstr "你的網域已通過 Apple Pay 驗證！"
+
+#: includes/class-wc-payments-apple-pay-registration.php:196
+msgid "Domain association file updated."
+msgstr "已更新網域關聯檔案。"
+
+#. translators: expected domain association file URL
+#: includes/class-wc-payments-apple-pay-registration.php:193
+msgid "To enable Apple Pay, domain association file must be hosted at %s."
+msgstr "若要啟用 Apple Pay，網域關聯檔案必須託管在 %s."
+
+#: includes/class-wc-payments-apple-pay-registration.php:173
+msgid "Unable to copy domain association file to domain root."
+msgstr "無法將網域關聯檔案複製到網域根。"
+
+#: includes/class-wc-payments-apple-pay-registration.php:169
+msgid "Unable to create domain association folder to domain root."
+msgstr "無法在網域根建立網域關聯檔案。"
+
+#: includes/class-wc-payments-account.php:1029
+msgid "There was a problem processing your account data. Please try again."
+msgstr "處理帳號資料時發生問題。 請再試一次。"
+
+#: includes/class-wc-payments-account.php:752
+msgid "There was a problem redirecting you to the account connection page. Please try again."
+msgstr "系統將你重定導向帳號連結頁面時發生問題。 請再試一次。"
+
+#. translators: error message.
+#: includes/class-wc-payments-account.php:742
+msgid "There was a problem connecting this site to WordPress.com: \"%s\""
+msgstr "將此網站連結到 WordPress.com 時發生問題：「%s」"
+
+#: includes/class-wc-payments-account.php:732
+msgid "Connection to WordPress.com failed. Please connect to WordPress.com to start using WooCommerce Payments."
+msgstr "連結 WordPress.com 失敗。 請連結 WordPress.com 以開始使用 WooCommerce Payments。"
+
+#: includes/class-wc-payments-account.php:146
+msgid "Failed to detect connection status"
+msgstr "偵測不到連線狀態"
+
+#: includes/class-wc-payments-status.php:53
+msgid "This tool will clear the account cached values used in WooCommerce Payments."
+msgstr "此工具將清除 WooCommerce Payments 使用的帳號快取值。"
+
+#: includes/class-wc-payments-status.php:52
+msgid "Clear"
+msgstr "清除"
+
+#: includes/class-wc-payments-status.php:51
+msgid "Clear WooCommerce Payments account cache"
+msgstr "清除 WooCommerce Payments 帳號快取"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2687
+#: includes/payment-methods/class-upe-payment-gateway.php:355
+msgid "We're not able to add this payment method. Please refresh the page and try again."
+msgstr "我們無法新增此付款方式。 請重新整理頁面，然後再試一次。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2537
+msgid "Failed to add the provided payment method. Please try again later"
+msgstr "無法新增提供的付款方式。 請稍後再試一次"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2528
+msgid "We're not able to add this payment method. Please try again later"
+msgstr "我們無法新增此付款方式。 請稍後再試一次"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2516
+msgid "A WooCommerce Payments payment method was not provided"
+msgstr "未提供 WooCommerce Payments 付款方式"
+
+#. translators: %1: transaction ID of the payment or a translated string
+#. indicating an unknown ID.
+#: includes/class-wc-payment-gateway-wcpay.php:2472
+msgid "A payment with ID <code>%1$s</code> was used in an attempt to pay for this order. This payment intent ID does not match any payments for this order, so it was ignored and the order was not updated."
+msgstr "為了支付此訂單，使用了付款 ID <code>%1$s</code>。 此付款用途 ID 與此訂單的任何付款都不相符，因此已忽略此 ID，也未更新訂單。"
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payments-order-service.php:429
+msgid "A payment of %1$s <strong>failed</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "一筆使用 WooCommerce Payments (<a>%2$s</a>) 的付款%1$s <strong>失敗</strong>。"
+
+#. translators: This will be used to indicate an unknown value for an ID.
+#: includes/class-wc-payment-gateway-wcpay.php:2384
+msgid "unknown"
+msgstr "未知"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1008
+#: includes/class-wc-payment-gateway-wcpay.php:1067
+#: includes/class-wc-payment-gateway-wcpay.php:2375
+#: includes/class-wc-payment-gateway-wcpay.php:2388
+#: includes/class-wc-payment-gateway-wcpay.php:2405
+#: includes/payment-methods/class-upe-payment-gateway.php:656
+msgid "We're not able to process this payment. Please try again later."
+msgstr "我們無法處理這筆付款。 請稍後再試一次。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2255
+msgid "Canceling authorization <strong>failed</strong> to complete."
+msgstr "取消授權<strong>未能</strong>完成。"
+
+#. translators: %1: error message
+#: includes/class-wc-payment-gateway-wcpay.php:2240
+msgid "Canceling authorization <strong>failed</strong> to complete with the following message: <code>%1$s</code>."
+msgstr "取消授權<strong>未能</strong>完成，訊息如下：<code>%1$s</code>。"
+
+#: includes/class-wc-payments-order-service.php:591
+msgid "Payment authorization was successfully <strong>cancelled</strong>."
+msgstr "已成功<strong>取消</strong>付款授權。"
+
+#. translators: %1: the successfully charged amount, %2: transaction ID of the
+#. payment
+#: includes/class-wc-payments-order-service.php:512
+msgid "A payment of %1$s was <strong>successfully captured</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "使用 WooCommerce Payments <strong>成功</strong>完成一筆 %1$s 請款 (<a>%2$s</a>)。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2107
+msgid "Cancel authorization"
+msgstr "取消授權"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2106
+msgid "Capture charge"
+msgstr "請款"
+
+#: includes/class-wc-payment-gateway-wcpay.php:2074
+msgid "Customer bank statement is invalid. Statement should be between 5 and 22 characters long, contain at least single Latin character and does not contain special characters: ' \" * &lt; &gt;"
+msgstr ""
+
+#. translators: %1: the successfully charged amount, %2: refund id
+#: includes/class-wc-payment-gateway-wcpay.php:1490
+msgid "A refund of %1$s was successfully processed using WooCommerce Payments (<code>%2$s</code>)."
+msgstr "使用 WooCommerce Payments 成功處理了一筆 %1$s 退款。(<code>%2$s</code>)"
+
+#. translators: %1: the successfully charged amount, %2: error message
+#: includes/class-wc-payment-gateway-wcpay.php:1472
+msgid "A refund of %1$s failed to complete: %2$s"
+msgstr "未能完成一筆 %1$s 退款：%2$s"
+
+#. translators: an error message which will appear if a user tries to refund an
+#. order which is has been authorized but not yet charged.
+#: includes/class-wc-payment-gateway-wcpay.php:1424
+msgid "This payment is not captured yet. To cancel this order, please go to 'Order Actions' > 'Cancel authorization'. To proceed with a refund, please go to 'Order Actions' > 'Capture charge' to charge the payment card, and then trigger a refund via the 'Refund' button."
+msgstr "尚未請領這筆付款。 若要取消此訂單，請前往「訂單動作」>「取消授權」。 若要處理退款，請前往「訂單動作」>「請款」從付款卡片扣款，然後使用「退款」按鈕申請退款。"
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payments-order-service.php:485
+msgid "A payment of %1$s was <strong>started</strong> using WooCommerce Payments (<code>%2$s</code>)."
+msgstr "已使用 WooCommerce Payments (<code>%2$s</code>) <strong>開始</strong>支付一筆 %1$s 付款。"
+
+#. translators: %1: the authorized amount, %2: transaction ID of the payment
+#: includes/class-wc-payments-order-service.php:460
+msgid "A payment of %1$s was <strong>authorized</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "使用 WooCommerce Payments (<a>%2$s</a>) <strong>授權</strong>了一筆 %1$s 付款"
+
+#. translators: %1: the successfully charged amount, %2: transaction ID of the
+#. payment
+#: includes/class-wc-payments-order-service.php:403
+msgid "A payment of %1$s was <strong>successfully charged</strong> using WooCommerce Payments (<a>%2$s</a>)."
+msgstr "使用 WooCommerce Payments (<a>%2$s</a>) <strong>成功</strong>扣除了一筆 %1$s 付款。"
+
+#. translators: %1: the last 4 digit of the credit card
+#: includes/class-wc-payment-gateway-wcpay.php:943
+msgid "Payment method is changed to: <strong>Credit card ending in %1$s</strong>."
+msgstr "付款方式變更為：<strong>信用卡卡號結尾 %1$s</strong>。"
+
+#. translators: %1: the failed payment amount, %2: error message
+#: includes/class-wc-payment-gateway-wcpay.php:692
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:295
+msgid "A payment of %1$s <strong>failed</strong> to complete with the following message: <code>%2$s</code>."
+msgstr "一筆%1$s <strong>付款未能完成</strong>，訊息如下：<code>%2$s</code>。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:660
+#: includes/class-wc-payment-gateway-wcpay.php:2366
+#: includes/payment-methods/class-upe-payment-gateway.php:166
+#: includes/payment-methods/class-upe-payment-gateway.php:242
+#: includes/payment-methods/class-upe-payment-gateway.php:456
+msgid "We're not able to process this payment. Please refresh the page and try again."
+msgstr "我們無法處理這筆付款。 請重新整理頁面，然後再試一次。"
+
+#: includes/class-wc-payments-utils.php:511
+msgid "There was an error while processing this request. If you continue to see this notice, please contact the admin."
+msgstr "處理此要求時發生錯誤。 如果你繼續收到此通知，請聯絡管理員。"
+
+#: includes/class-wc-payments-checkout.php:217
+#: includes/class-wc-payments-upe-checkout.php:276
+msgid "An error was encountered when preparing the payment form. Please try again later."
+msgstr "準備付款表單時發生錯誤。 請稍後再試一次。"
+
+#. translators: link to Stripe testing page
+#: includes/class-wc-payments-checkout.php:172
+msgid "<strong>Test mode:</strong> use the test VISA card 4242424242424242 with any expiry date and CVC, or any test card numbers listed <a>here</a>."
+msgstr "<strong>測試模式：</strong>使用 VISA 測試卡 4242424242424242，有效期限和 CVC 不拘，或<a>此處</a>列出的任何測試卡號。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:606
+msgid "Save payment information to my account for future purchases."
+msgstr "將付款資訊儲存到我的帳戶，以便之後購物使用。"
+
+#: includes/class-wc-payments-checkout.php:109
+msgid "There was a problem processing the payment. Please check your email inbox and refresh the page to try again."
+msgstr "處理付款時出現問題。 請檢查你的電子郵件收件匣，然後重新整理頁面再試一次。"
+
+#: includes/admin/class-wc-payments-admin-sections-overwrite.php:69
+msgid "All payment methods"
+msgstr "所有付款方式"
+
+#: includes/admin/class-wc-payments-admin-settings.php:51
+msgid "All transactions are simulated. Customers can't make real purchases through WooCommerce Payments."
+msgstr "所有交易都是模擬的。 顧客無法透過 WooCommerce Payments 實際購買。"
+
+#: includes/admin/class-wc-payments-admin-settings.php:50
+msgid "Test mode active: "
+msgstr "測試模式正在使用中： "
+
+#: includes/class-wc-payment-gateway-wcpay.php:315
+msgid "Select pages"
+msgstr "選取頁面"
+
+#: includes/class-wc-payment-gateway-wcpay.php:310
+msgid "Product"
+msgstr "商品"
+
+#: includes/class-wc-payment-gateway-wcpay.php:301
+msgid "Select where you would like to display the button."
+msgstr "選取要顯示按鈕的位置。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:299
+msgid "Button locations"
+msgstr "按鈕位置"
+
+#: includes/class-wc-payment-gateway-wcpay.php:295
+msgid "Buy now"
+msgstr "立即購買"
+
+#: includes/class-wc-payment-gateway-wcpay.php:294
+msgid "Enter the custom text you would like the button to have."
+msgstr "輸入你希望按鈕顯示的自訂文字。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:292
+msgid "Custom button label"
+msgstr "自訂按鈕標籤"
+
+#: includes/class-wc-payment-gateway-wcpay.php:287
+msgid "Enter the height you would like the button to be in pixels. Width will always be 100%."
+msgstr "輸入你想要的按鈕高度 (以像素為單位)。 寬度一律為 100%。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:285
+msgid "Button height"
+msgstr "按鈕高度"
+
+#: includes/class-wc-payment-gateway-wcpay.php:281
+msgid "Light-Outline"
+msgstr "淺色外框"
+
+#: includes/class-wc-payment-gateway-wcpay.php:280
+msgid "Light"
+msgstr "淺色系"
+
+#: includes/class-wc-payment-gateway-wcpay.php:279
+msgid "Dark"
+msgstr "暗色"
+
+#: includes/class-wc-payment-gateway-wcpay.php:275
+msgid "Select the button theme you would like to show."
+msgstr "選取你要顯示的按鈕佈景主題。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:273
+msgid "Button theme"
+msgstr "按鈕佈景主題"
+
+#: includes/class-wc-payment-gateway-wcpay.php:331
+msgid "Default"
+msgstr "預設"
+
+#: includes/class-wc-payment-gateway-wcpay.php:262
+msgid "Select the button type you would like to show."
+msgstr "選取你要顯示的按鈕類型。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:260
+msgid "Button type"
+msgstr "按鈕類型"
+
+#: includes/class-wc-payment-gateway-wcpay.php:255
+msgid "If enabled, users will be able to pay using Apple Pay, Google Pay or the Payment Request API if supported by the browser."
+msgstr "如果啟用，使用者將能夠使用 Apple Pay、Google Pay 或瀏覽器支援的付款要求 API 支付。"
+
+#. translators: 1) br tag 2) Stripe anchor tag 3) Apple anchor tag
+#: includes/class-wc-payment-gateway-wcpay.php:249
+msgid "Enable payment request buttons (Apple Pay, Google Pay, and more). %1$sBy using Apple Pay, you agree to %2$s and %3$s's Terms of Service."
+msgstr "啟用付款要求按鈕 (Apple Pay、Google Pay 等)。 %1$s使用 Apple Pay，即表示你同意 %2$s 和 %3$s 的服務條款。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:241
+msgid "Payment request buttons"
+msgstr "請款按鈕"
+
+#: includes/class-wc-payment-gateway-wcpay.php:235
+msgid "When enabled debug notes will be added to the log."
+msgstr "啟用後，偵錯說明將加入記錄中。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:234
+msgid "Debug log"
+msgstr "除錯記錄"
+
+#: includes/class-wc-payment-gateway-wcpay.php:229
+msgid "Simulate transactions using test card numbers."
+msgstr "使用測試卡號模擬交易。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:221
+msgid "If enabled, users will be able to pay with a saved card during checkout. Card details are saved on our platform, not on your store."
+msgstr "如果啟用，使用者將能夠在結帳時使用儲存的卡片付款。 卡片詳細資料儲存在我們的平台，不是你的商店。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:219
+msgid "Enable payment via saved cards"
+msgstr "使用儲存的卡片付款"
+
+#: includes/class-wc-payment-gateway-wcpay.php:218
+msgid "Saved cards"
+msgstr "儲存的卡片"
+
+#: includes/class-wc-payment-gateway-wcpay.php:214
+msgid "Charge must be captured within 7 days of authorization, otherwise the authorization and order will be canceled."
+msgstr "請務必在授權 7 天內請款，否則授權和訂單將取消。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:212
+msgid "Issue an authorization on checkout, and capture later."
+msgstr "結帳時發出授權，稍後請款。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:211
+msgid "Manual capture"
+msgstr "人工請款"
+
+#: includes/class-wc-payment-gateway-wcpay.php:206
+msgid "Edit the way your store name appears on your customers’ bank statements (read more about requirements <a>here</a>)."
+msgstr "編輯你的商店在顧客銀行對帳單上顯示的名稱 (請在<a>此處</a>閱讀相關要求)。"
+
+#: includes/class-wc-payment-gateway-wcpay.php:187
+msgid "Enter your card details"
+msgstr "輸入你的卡片詳細資料"
+
+#: includes/class-payment-information.php:128
+msgid "Invalid payment method. Please input a new card number."
+msgstr "無效的付款方式。 請輸入新的卡號。"
+
+#. translators: %1: ID being fetched
+#: includes/class-wc-payments-webhook-processing-service.php:617
+msgid "%1$s not found in array"
+msgstr "在陣列中找不到 %1$s"
+
+#. translators: %1: the refund amount, %2: ID of the refund
+#: includes/class-wc-payments-webhook-processing-service.php:241
+msgid "A refund of %1$s was <strong>unsuccessful</strong> using WooCommerce Payments (<code>%2$s</code>)."
+msgstr "使用 WooCommerce Payments 處理的一筆 %1$s 退款<strong>未成功</strong> (<code>%2$s</code>)。"
+
+#. translators: %1: charge ID
+#: includes/class-wc-payments-webhook-processing-service.php:231
+#: includes/class-wc-payments-webhook-processing-service.php:307
+#: includes/class-wc-payments-webhook-processing-service.php:482
+#: includes/class-wc-payments-webhook-processing-service.php:514
+#: includes/class-wc-payments-webhook-processing-service.php:545
+msgid "Could not find order via charge ID: %1$s"
+msgstr "使用以下收費 ID 找不到訂單：%1$s"
+
+#: includes/admin/class-wc-rest-payments-tos-controller.php:108
+msgid "ToS accept parameter is missing"
+msgstr "缺少 ToS 接受參數"
+
+#: includes/admin/class-wc-payments-admin.php:336
+#: includes/admin/class-wc-payments-admin.php:850
+msgid "Settings"
+msgstr "設定"
+
+#: includes/admin/class-wc-payments-admin.php:136
+msgid "Disputes"
+msgstr "爭議"
+
+#: client/transactions/index.tsx:58 client/transactions/list/index.tsx:369
+msgid "Transactions"
+msgstr "交易"
+
+#: client/onboarding/strings.ts:8 client/payment-methods/delete-modal.tsx:32
+msgid "WooCommerce Payments"
+msgstr "WooCommerce Payments"
+
+#: includes/admin/class-wc-payments-admin.php:178
+msgid "Payments"
+msgstr "收款功能"

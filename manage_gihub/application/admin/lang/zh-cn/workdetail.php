@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'Tg_account'       => 'tg账号',
+    'Tg_nick'          => 'tg名称',
+    'Start_work_time'  => '上班时间',
+    'Off_work_time'    => '下班时间',
+    'Ask_reset_hours'  => '请假时长',
+    'Leave_table_mins' => '离岗时间',
+    'Later_work_mins'  => '迟到时间',
+    'Early_work_mins'  => '早退时间',
+    'Add_work_mins'    => '加班时长',
+    'Leave_times'      => '离岗次数',
+    'Dates'            => '日期',
+    'Work_status'      => '今日状态',
+    'Set_start_time'   => '规定上班时间',
+    'Set_off_time'     => '规定下班时间',
+    'Ask_start_time'   => '请假开始时间',
+    'Ask_end_time'     => '请假结束时间',
+    'Status'           => '状态',
+    'Work_status 0'    => '假日',
+    'Work_status 1'    => '上班',
+    'Work_status 2'    => '请假',
+    'Work_status 3'    => '上班',
+    'Work_status 4'    => '上班',
+    'Work_status 5'    => '上班',
+    'Work_status 6'    => '上班',
+];

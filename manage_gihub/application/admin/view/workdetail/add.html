@@ -1,0 +1,123 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tg_account')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tg_account" data-rule="required" class="form-control" name="row[tg_account]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tg_nick')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tg_nick" data-rule="required" class="form-control" name="row[tg_nick]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start_work_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_work_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[start_work_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Off_work_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-off_work_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[off_work_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ask_reset_hours')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ask_reset_hours" class="form-control" name="row[ask_reset_hours]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Leave_table_mins')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-leave_table_mins" class="form-control" name="row[leave_table_mins]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Later_work_mins')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-later_work_mins" class="form-control" name="row[later_work_mins]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Early_work_mins')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-early_work_mins" class="form-control" name="row[early_work_mins]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_work_mins')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_work_mins" class="form-control" name="row[add_work_mins]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Leave_times')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-leave_times" class="form-control" name="row[leave_times]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Dates')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dates" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[dates]" type="text" value="{:date('Y-m-d')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Work_status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="workStatusList" item="vo"}
+            <label for="row[work_status]-{$key}"><input id="row[work_status]-{$key}" name="row[work_status]" type="radio" value="{$key}" {in name="key" value="1"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Set_start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-set_start_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[set_start_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Set_off_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-set_off_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[set_off_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ask_start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ask_start_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[ask_start_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ask_end_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ask_end_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[ask_end_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="statusList" item="vo"}
+            <label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="1"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

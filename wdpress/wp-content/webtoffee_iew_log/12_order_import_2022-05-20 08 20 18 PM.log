@@ -1,0 +1,11 @@
+05-21-2022 @ 04:20:18 - ---[ New import started at 2022-05-20 20:20:18 ] PHP Memory: 128 MB, WP Memory: 40 MB
+05-21-2022 @ 04:20:18 - Preparing for import.
+05-21-2022 @ 04:20:18 - Row :1 - Parsing item.
+05-21-2022 @ 04:20:18 - Row :1 - Processing item.
+05-21-2022 @ 04:20:18 - Found order object. ID:721
+05-21-2022 @ 04:20:18 - Row :1 - Order imported successfully.
+05-21-2022 @ 04:20:18 - Row :2 - Parsing item.
+05-21-2022 @ 04:20:18 - Row :2 - Processing item.
+05-21-2022 @ 04:20:18 - Found order object. ID:722
+05-21-2022 @ 04:20:19 - Row :2 - Order imported successfully.
+05-21-2022 @ 04:20:19 - ---[ Import ended at 2022-05-20 20:20:19]---

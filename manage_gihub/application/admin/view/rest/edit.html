@@ -1,0 +1,57 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tg_account')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tg_account" class="form-control" name="row[tg_account]" type="text" value="{$row.tg_account|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tg_nick')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tg_nick" class="form-control" name="row[tg_nick]" type="text" value="{$row.tg_nick|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Leave_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-leave_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[leave_time]" type="text" value="{:$row.leave_time?datetime($row.leave_time):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Back_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-back_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[back_time]" type="text" value="{:$row.back_time?datetime($row.back_time):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Seconds')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-seconds" class="form-control" name="row[seconds]" type="number" value="{$row.seconds|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="statusList" item="vo"}
+            <label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="$row.status"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Updateyimr')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-updateyimr" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[updateyimr]" type="text" value="{$row.updateyimr}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>
